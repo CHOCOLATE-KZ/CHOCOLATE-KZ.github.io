@@ -1,0 +1,3771 @@
+
+
+===== SOURCE: blockchain_part_1.pdf =====
+
+
+BLOCKCHAIN - PART 1
+Syrym Zhakypbekov
+December 18, 2025
+Contents
+MODULE 1: BLOCKCHAIN BASICS 2
+MODULE 2: SMART CONTRACTS 23
+MODULE 3: DECENTRALIZED APPLICATIONS (DAPPS) 44
+MODULE 4: PLATFORMS ECOSYSTEM 65
+1
+MODULE 1: BLOCKCHAIN BASICS
+Question 1 EASY
+What is the primary characteristic of a Blockchain distributed ledger?
+(a) It allows editing past records
+(b) It is encrypted with a single password
+(c) It is immutable and append-only
+(d) It is stored on a single central server
+Correct Answer: c
+Question 2 MEDIUM
+Which cryptocurrency was the (cid:28)rst implementation of blockchain technology?
+(a) Litecoin
+(b) Ethereum
+(c) Ripple
+(d) Bitcoin
+Correct Answer: d
+Question 3 HARD
+What does ’P2P’ stand for in the context of blockchain?
+(a) Pay-to-Play
+(b) Peer-to-Peer
+(c) Private-to-Public
+(d) Person-to-Person
+Correct Answer: b
+2
+Question 4 EASY
+In the Bitcoin network, what is a ’node’?
+(a) A website
+(b) The central bank server
+(c) A computer connected to the network that maintains a copy of the ledger
+(d) A miners pickaxe
+Correct Answer: c
+Question 5 MEDIUM
+What is the function of a ’Hash’ in a block?
+(a) To calculate the transaction fee
+(b) To store the user’s password
+(c) To encrypt the data so no one can read it
+(d) To uniquely identify the block and link it to the previous one
+Correct Answer: d
+Question 6 HARD
+Which consensus mechanism does Bitcoin originally use?
+(a) Proof of Stake (PoS)
+(b) Proof of Authority (PoA)
+(c) Proof of Work (PoW)
+(d) Proof of Burn (PoB)
+Correct Answer: c
+3
+Question 7 EASY
+Who is the pseudonymous creator of Bitcoin?
+(a) Gavin Wood
+(b) Charlie Lee
+(c) Vitalik Buterin
+(d) Satoshi Nakamoto
+Correct Answer: d
+Question 8 MEDIUM
+What is the ’Genesis Block’?
+(a) A rejected block
+(b) The very (cid:28)rst block in a blockchain
+(c) The last block mined
+(d) The largest block
+Correct Answer: b
+Question 9 HARD
+What problem does the consensus protocol primarily solve?
+(a) The large (cid:28)le storage problem
+(b) The slow internet problem
+(c) The Double-Spending problem
+(d) The password recovery problem
+Correct Answer: c
+4
+Question 10 EASY
+In Proof of Work, what are miners competing to do?
+(a) Hack the network
+(b) Solve a complex mathematical puzzle ((cid:28)nd a nonce)
+(c) Create the most transactions
+(d) Guess a password
+Correct Answer: b
+Question 11 MEDIUM
+What is ’Gas’ in the context of Ethereum?
+(a) A fee paid to execute transactions and smart contracts
+(b) A type of token
+(c) Fuel for the servers
+(d) Cloud storage space
+Correct Answer: a
+Question 12 HARD
+Which programming language is primarily used for Bitcoin Core?
+(a) Python
+(b) JavaScript
+(c) Solidity
+(d) C++
+Correct Answer: d
+5
+Question 13 EASY
+What di(cid:27)erentiates Ethereum from Bitcoin primarily?
+(a) Ethereum supports programmable Smart Contracts
+(b) Ethereum has no coins
+(c) Ethereum is older
+(d) Ethereum is centralized
+Correct Answer: a
+Question 14 MEDIUM
+What is a ’Wallet’ in blockchain?
+(a) A cloud drive
+(b) A bank account
+(c) A bag for cash
+(d) Software/Hardware that stores private/public keys
+Correct Answer: d
+Question 15 HARD
+If you lose your Private Key, what happens to your funds?
+(a) You can reset it via email
+(b) The bank restores them
+(c) They are permanently inaccessible
+(d) You can call support
+Correct Answer: c
+6
+Question 16 EASY
+What is the size limit of a Bitcoin block (roughly)?
+(a) 1 GB
+(b) 1 KB
+(c) 100 MB
+(d) 1 MB (historically)
+Correct Answer: d
+Question 17 MEDIUM
+What is ’SHA-256’?
+(a) The cryptographic hashing algorithm used by Bitcoin
+(b) A consensus model
+(c) A token standard
+(d) An encryption standard
+Correct Answer: a
+Question 18 HARD
+What does ’Decentralization’ mean?
+(a) The network is o(cid:31)ine
+(b) One company controls everything
+(c) The network is slow
+(d) No single entity controls the network
+Correct Answer: d
+7
+Question 19 EASY
+What is a ’Smart Contract’?
+(a) Self-executing code managed by a blockchain
+(b) A lawyer
+(c) A smart phone app
+(d) A legal paper document
+Correct Answer: a
+Question 20 MEDIUM
+What is a ’Nonce’?
+(a) A random number used once in mining to satisfy the hash target
+(b) A user address
+(c) A timestamp
+(d) A transaction ID
+Correct Answer: a
+Question 21 HARD
+Which organization manages the Ethereum development?
+(a) Satoshi Inc
+(b) Microsoft
+(c) Google
+(d) The Ethereum Foundation
+Correct Answer: d
+8
+Question 22 EASY
+What is a ’Fork’ in blockchain?
+(a) A virus
+(b) A database error
+(c) A spoon
+(d) A divergence in the chain (Soft or Hard)
+Correct Answer: d
+Question 23 MEDIUM
+What is a ’Hard Fork’?
+(a) A compatible upgrade
+(b) A server restart
+(c) A non-backward compatible upgrade to the protocol
+(d) A minor bug (cid:28)x
+Correct Answer: c
+Question 24 HARD
+What is ’Distributed Consensus’?
+(a) Centralized voting
+(b) Agreement among nodes on the state of the ledger
+(c) Cloud computing
+(d) Agreement between CEO and CTO
+Correct Answer: b
+9
+Question 25 EASY
+What is ’Mining’?
+(a) Digging for gold
+(b) Writing code
+(c) Deleting data
+(d) The process of verifying/adding transactions and securing the network
+Correct Answer: d
+Question 26 MEDIUM
+What is a ’Public Key’?
+(a) An address that can be shared to receive funds
+(b) A hash of the private key
+(c) A secret password
+(d) A admin password
+Correct Answer: a
+Question 27 HARD
+What is a ’Private Key’?
+(a) A secret key used to sign transactions
+(b) A website URL
+(c) A public address
+(d) A username
+Correct Answer: a
+10
+Question 28 EASY
+What is the ’Byzantine Generals Problem’?
+(a) A coding bug
+(b) A consensus challenge in distributed systems with potential traitors
+(c) A history lesson
+(d) A war strategy
+Correct Answer: b
+Question 29 MEDIUM
+What is ’Permissionless’ Blockchain?
+(a) Only approved users can join
+(b) Corporate only
+(c) Internal network
+(d) Anyone can join and participate (e.g., Bitcoin)
+Correct Answer: d
+Question 30 HARD
+What is ’Permissioned’ Blockchain?
+(a) Access is restricted to authorized participants
+(b) Open to all
+(c) Public access
+(d) Anonymous
+Correct Answer: a
+11
+Question 31 EASY
+What is the ’EVM’?
+(a) Electronic Voting Machine
+(b) Enterprise Virtual Memory
+(c) Ether Validating Miner
+(d) Ethereum Virtual Machine
+Correct Answer: d
+Question 32 MEDIUM
+Which standard is used for tokens on Ethereum?
+(a) ERC-20
+(b) HTTP
+(c) TCP/IP
+(d) ISO-20022
+Correct Answer: a
+Question 33 HARD
+What is a ’dApp’?
+(a) Desktop Application
+(b) Database App
+(c) Decentralized Application
+(d) Digital Application
+Correct Answer: c
+12
+Question 34 EASY
+What is ’Ether’ (ETH)?
+(a) The native cryptocurrency of Ethereum
+(b) A gas
+(c) A (cid:28)at currency
+(d) A stock
+Correct Answer: a
+Question 35 MEDIUM
+How often is a new block added to Bitcoin (approx)?
+(a) Every day
+(b) Every hour
+(c) Every 1 second
+(d) Every 10 minutes
+Correct Answer: d
+Question 36 HARD
+How often is a new block added to Ethereum (approx)?
+(a) Every 12-15 seconds
+(b) Every 10 minutes
+(c) Instantly
+(d) Every hour
+Correct Answer: a
+13
+Question 37 EASY
+What is ’Keccak-256’?
+(a) The hashing algorithm used by Ethereum
+(b) A consensus
+(c) A Bitcoin wallet
+(d) A mining rig
+Correct Answer: a
+Question 38 MEDIUM
+What implies ’Immutability’?
+(a) Data is temporary
+(b) Once data is written, it cannot be changed
+(c) Data is invisible
+(d) Data expires
+Correct Answer: b
+Question 39 HARD
+What is UTXO?
+(a) United Text Organization
+(b) User Transaction Order
+(c) Universal Tax Output
+(d) Unspent Transaction Output
+Correct Answer: d
+14
+Question 40 EASY
+Bitcoin uses which model for balances?
+(a) Account/Balance Model
+(b) Debit Model
+(c) UTXO Model
+(d) Credit Model
+Correct Answer: c
+Question 41 MEDIUM
+Ethereum uses which model for balances?
+(a) Cash Model
+(b) Check Model
+(c) Account/Balance Model
+(d) UTXO Model
+Correct Answer: c
+Question 42 HARD
+What represents ’Identity’ on a blockchain?
+(a) Your Public Address
+(b) Your Photo
+(c) Your Name
+(d) Your Email
+Correct Answer: a
+15
+Question 43 EASY
+What is a ’Merkle Tree’?
+(a) A sorting algorithm
+(b) A hash tree used to e(cid:30)ciently summarize/verify block data
+(c) A biological tree
+(d) A network topology
+Correct Answer: b
+Question 44 MEDIUM
+What is the ’Root Hash’?
+(a) The single hash representing the entire Merkle Tree
+(b) The (cid:28)rst transaction
+(c) The last transaction
+(d) The block height
+Correct Answer: a
+Question 45 HARD
+What is ’Cold Storage’?
+(a) Cloud backup
+(b) Online wallet
+(c) A refrigerator
+(d) Storing keys o(cid:31)ine (e.g. paper, hardware wallet)
+Correct Answer: d
+16
+Question 46 EASY
+What is ’Hot Wallet’?
+(a) A stolen wallet
+(b) A wallet connected to the internet
+(c) A hardware wallet
+(d) A paper wallet
+Correct Answer: b
+Question 47 MEDIUM
+Double-spending is prevented by:
+(a) Trusting users
+(b) Deleting coins
+(c) Consensus and the immutable history
+(d) Faster internet
+Correct Answer: c
+Question 48 HARD
+What is a ’51% Attack’?
+(a) Hacking 51 servers
+(b) Stealing 51% of coins
+(c) A discount
+(d) An entity controls >50% of hash power and can reorganize the chain
+Correct Answer: d
+17
+Question 49 EASY
+What is ’Di(cid:30)culty Adjustment’?
+(a) The price dropping
+(b) The network auto-adjusts puzzle hardness to maintain block time
+(c) Computers getting slower
+(d) Miners getting tired
+Correct Answer: b
+Question 50 MEDIUM
+Which of these is a ’Layer 2’ solution?
+(a) TCP/IP
+(b) Lightning Network
+(c) Bitcoin Core
+(d) Ethereum Mainnet
+Correct Answer: b
+Question 51 HARD
+What is ’Tokenization’?
+(a) Encrypting
+(b) Buying coins
+(c) Representing real-world assets as digital tokens
+(d) Mining
+Correct Answer: c
+18
+Question 52 EASY
+A ’Block Header’ contains:
+(a) Source code
+(b) User emails
+(c) All transactions full text
+(d) Metadata like Parent Hash, Timestamp, Nonce
+Correct Answer: d
+Question 53 MEDIUM
+What is ’Halving’ in Bitcoin?
+(a) Speed doubles
+(b) Miner block reward is cut in half every 4 years
+(c) Users are banned
+(d) Price drops by half
+Correct Answer: b
+Question 54 HARD
+Why are blockchain transactions ’Traceable’?
+(a) The entire history is public (pseudonymous)
+(b) Because banks track them
+(c) Because Google tracks them
+(d) They are not
+Correct Answer: a
+19
+Question 55 EASY
+What is ’Peer Discovery’?
+(a) Finding friends
+(b) Google Search
+(c) Buying peers
+(d) Nodes (cid:28)nding other nodes to connect to
+Correct Answer: d
+Question 56 MEDIUM
+What is a ’Light Node’?
+(a) A lamp
+(b) A heavy server
+(c) A node that downloads only headers, not the full chain
+(d) A mining rig
+Correct Answer: c
+Question 57 HARD
+What is ’Cryptography’ in blockchain used for?
+(a) Hiding data only
+(b) Security, signing, and veri(cid:28)cation
+(c) Speeding up network
+(d) Compressing (cid:28)les
+Correct Answer: b
+20
+Question 58 EASY
+Asymmetric Encryption uses:
+(a) No keys
+(b) Three keys
+(c) One key
+(d) A pair of keys: Public and Private
+Correct Answer: d
+Question 59 MEDIUM
+Symmetric Encryption uses:
+(a) No keys
+(b) The same key for encryption and decryption
+(c) Public key only
+(d) Two di(cid:27)erent keys
+Correct Answer: b
+Question 60 HARD
+A ’Signature’ proves:
+(a) Ownership of the private key without revealing it
+(b) The location
+(c) Your name
+(d) The time
+Correct Answer: a
+21
+Question 61 EASY
+What does ’Satoshi’ represent?
+(a) A wallet
+(b) A server
+(c) The smallest unit of a Bitcoin (0.00000001 BTC)
+(d) A distinct coin
+Correct Answer: c
+Question 62 MEDIUM
+What is ’Wei’?
+(a) A gas limit
+(b) A person
+(c) A token
+(d) The smallest unit of Ether
+Correct Answer: d
+Question 63 HARD
+What is ’Gwei’?
+(a) A transaction
+(b) A unit of Gas price (1 billion wei)
+(c) A block
+(d) A token
+Correct Answer: b
+22
+Question 64 EASY
+What is a ’Whitepaper’?
+(a) A blank paper
+(b) A receipt
+(c) A technical document proposing the blockchain protocol
+(d) A contract
+Correct Answer: c
+MODULE 2: SMART CONTRACTS
+Question 65 MEDIUM
+Which language is most commonly used for Ethereum Smart Contracts?
+(a) Java
+(b) Swift
+(c) C#
+(d) Solidity
+Correct Answer: d
+Question 66 HARD
+Where is Solidity code executed?
+(a) In the browser
+(b) On the miner’s CPU directly
+(c) On the EVM (Ethereum Virtual Machine)
+(d) On the AWS cloud
+Correct Answer: c
+23
+Question 67 EASY
+What is the (cid:28)le extension for Solidity?
+(a) .eth
+(b) .sol
+(c) .py
+(d) .js
+Correct Answer: b
+Question 68 MEDIUM
+Which keyword de(cid:28)nes a contract in Solidity?
+(a) contract
+(b) class
+(c) function
+(d) def
+Correct Answer: a
+Question 69 HARD
+What is ’Remix’?
+(a) A browser-based IDE for Solidity development
+(b) A music mixer
+(c) A wallet
+(d) A mining tool
+Correct Answer: a
+24
+Question 70 EASY
+What is the constructor in Solidity?
+(a) A variable
+(b) A function for building UI
+(c) A function that runs only once upon deployment
+(d) A loop
+Correct Answer: c
+Question 71 MEDIUM
+What is a ’state variable’?
+(a) A global constant
+(b) A local variable
+(c) A variable stored permanently on the blockchain storage
+(d) A temporary variable
+Correct Answer: c
+Question 72 HARD
+What is ’msg.sender’?
+(a) The miner
+(b) The address of the account calling the function
+(c) The contract address
+(d) The email sender
+Correct Answer: b
+25
+Question 73 EASY
+What is ’msg.value’?
+(a) The gas price
+(b) The message text
+(c) The amount of Ether (in Wei) sent with the call
+(d) The block number
+Correct Answer: c
+Question 74 MEDIUM
+What is a ’modi(cid:28)er’ in Solidity?
+(a) A CSS style
+(b) A variable type
+(c) A code snippet to change the behavior of functions (e.g. checks)
+(d) A compiler setting
+Correct Answer: c
+Question 75 HARD
+Which visibility makes a function callable from outside strictly?
+(a) internal
+(b) local
+(c) private
+(d) external
+Correct Answer: d
+26
+Question 76 EASY
+Which visibility makes a function callable ONLY from within the contract?
+(a) public
+(b) private
+(c) external
+(d) view
+Correct Answer: b
+Question 77 MEDIUM
+What does ’view’ keyword mean?
+(a) Function is invisible
+(b) Function changes state
+(c) Function reads state but modi(cid:28)es nothing
+(d) Function accepts payments
+Correct Answer: c
+Question 78 HARD
+What does ’pure’ keyword mean?
+(a) Function is private
+(b) Function is holy
+(c) Function is free
+(d) Function neither reads nor writes state
+Correct Answer: d
+27
+Question 79 EASY
+What is a ’mapping’ in Solidity?
+(a) A loop
+(b) A key-value data structure (hash map)
+(c) A list
+(d) A Google map
+Correct Answer: b
+Question 80 MEDIUM
+How do you declare a mapping mapping address to uint?
+(a) array address uint
+(b) mapping(address => uint) public balances;
+(c) dict(address, uint)
+(d) map address to uint
+Correct Answer: b
+Question 81 HARD
+What is an ’event’ in Solidity?
+(a) A error
+(b) A party
+(c) A way for contracts to log data that frontends can listen to
+(d) A transaction
+Correct Answer: c
+28
+Question 82 EASY
+How do you ’emit’ an event?
+(a) log Event
+(b) call EventName
+(c) print Event
+(d) emit EventName(args);
+Correct Answer: d
+Question 83 MEDIUM
+What is the ’require()’ function used for?
+(a) To loop
+(b) To ask user
+(c) To validate conditions; reverts if false
+(d) To import (cid:28)les
+Correct Answer: c
+Question 84 HARD
+What happens if a ’require’ fails?
+(a) It prints a warning
+(b) It continues
+(c) It crashes the network
+(d) The transaction reverts and gas is refunded (mostly)
+Correct Answer: d
+29
+Question 85 EASY
+What is ’gas limit’?
+(a) Block size
+(b) Max amount of gas user is willing to spend
+(c) Speed limit
+(d) Fuel tank size
+Correct Answer: b
+Question 86 MEDIUM
+What is ’gas price’?
+(a) Price of Ether
+(b) Price of oil
+(c) Transaction fee
+(d) Amount of Wei user pays per unit of gas
+Correct Answer: d
+Question 87 HARD
+What is the ’fallback function’?
+(a) A error handler
+(b) A backup plan
+(c) A constructor
+(d) A function executed if no other function matches the call identi(cid:28)er
+Correct Answer: d
+30
+Question 88 EASY
+What is ’receive()’ function?
+(a) A getter
+(b) A function triggered when the contract receives plain Ether
+(c) A mailbox
+(d) A setter
+Correct Answer: b
+Question 89 MEDIUM
+What is ’payable’ keyword?
+(a) Requires payment of taxes
+(b) Locks the function
+(c) Allows a function to receive Ether
+(d) Makes it free
+Correct Answer: c
+Question 90 HARD
+Which data type is ’address’?
+(a) A number
+(b) A string
+(c) A 20-byte Ethereum address
+(d) A boolean
+Correct Answer: c
+31
+Question 91 EASY
+What is ’uint256’?
+(a) Unique Integer
+(b) Universal Integer
+(c) Unsigned Integer 256-bit
+(d) Unit Integer
+Correct Answer: c
+Question 92 MEDIUM
+What is ’struct’?
+(a) A function
+(b) A custom data structure grouping variables
+(c) A building
+(d) A wall
+Correct Answer: b
+Question 93 HARD
+What implies ’Turing Complete’?
+(a) It is smart
+(b) The system can solve any computational problem (given enough resources)
+(c) It is (cid:28)nished
+(d) It is fast
+Correct Answer: b
+32
+Question 94 EASY
+Does Solidity support inheritance?
+(a) Yes, using ’is’ keyword
+(b) Only for variables
+(c) Only for events
+(d) No
+Correct Answer: a
+Question 95 MEDIUM
+What is an ’Interface’ in Solidity?
+(a) A screen
+(b) A UI
+(c) A user
+(d) De(cid:28)nes function signatures without implementation
+Correct Answer: d
+Question 96 HARD
+What is ’ABI’?
+(a) A blood type
+(b) Address Bit Index
+(c) Abstract Binary Init
+(d) Application Binary Interface (JSON description of contract)
+Correct Answer: d
+33
+Question 97 EASY
+Why do we need ABI?
+(a) For storage
+(b) For compilation
+(c) For mining
+(d) For JS/Client apps to know how to interact with the bytecode
+Correct Answer: d
+Question 98 MEDIUM
+What is ’Bytecode’?
+(a) Design
+(b) Source code
+(c) Documentation
+(d) The compiled machine code deployed to the blockchain
+Correct Answer: d
+Question 99 HARD
+What represents ’now’ or ’block.timestamp’?
+(a) Server time
+(b) Current block timestamp (Unix epoch)
+(c) User time
+(d) Real time
+Correct Answer: b
+34
+Question 100 EASY
+Can smart contracts call other smart contracts?
+(a) No
+(b) Only if paid
+(c) Yes
+(d) Never
+Correct Answer: c
+Question 101 MEDIUM
+What is ’Reentrancy’?
+(a) Entering a room
+(b) Login again
+(c) Restarting
+(d) A vulnerability where a contract calls back into the calling contract recursively
+Correct Answer: d
+Question 102 HARD
+How to prevent Reentrancy?
+(a) Use Check-E(cid:27)ects-Interactions pattern or ReentrancyGuard
+(b) Delete code
+(c) Use faster internet
+(d) Use more gas
+Correct Answer: a
+35
+Question 103 EASY
+What is ’OpenZeppelin’?
+(a) A browser
+(b) A balloon
+(c) A library of secure, standard smart contracts (e.g. ERC20)
+(d) A rock band
+Correct Answer: c
+Question 104 MEDIUM
+What is ’Pragma’?
+(a) Directive to specify compiler version
+(b) A variable
+(c) A function
+(d) A comment
+Correct Answer: a
+Question 105 HARD
+Example: ’pragma solidity 0.8.0;′means :
+(a) Use compiler version 0.8.0 or newer (but compatible)
+(b) Use exactly 0.8.0
+(c) Ignore version
+(d) Use older versions
+Correct Answer: a
+36
+Question 106 EASY
+What is ’storage’ vs ’memory’?
+(a) Storage is persistent; Memory is temporary during execution
+(b) Storage is RAM
+(c) Memory is Hard Drive
+(d) No di(cid:27)erence
+Correct Answer: a
+Question 107 MEDIUM
+Where are local variables usually stored?
+(a) Stack or Memory
+(b) Storage
+(c) Cloud
+(d) Database
+Correct Answer: a
+Question 108 HARD
+What is ’block.number’?
+(a) The puzzle
+(b) The transaction count
+(c) The current block height
+(d) The block size
+Correct Answer: c
+37
+Question 109 EASY
+What is ’selfdestruct()’?
+(a) Stops the network
+(b) Explodes the computer
+(c) Pauses the contract
+(d) Deletes the contract and sends remaining Ether to an address
+Correct Answer: d
+Question 110 MEDIUM
+Why are loops (for/while) dangerous in Solidity?
+(a) They are hard to read
+(b) Compiler hates them
+(c) May hit gas limit if array is too large
+(d) They are slow
+Correct Answer: c
+Question 111 HARD
+What is ’ERC-721’?
+(a) Standard for Identity
+(b) Standard for Non-Fungible Tokens (NFTs)
+(c) Standard for Storage
+(d) Standard for Currency
+Correct Answer: b
+38
+Question 112 EASY
+What is ’ERC-20’?
+(a) Standard for NFT
+(b) Standard for ID
+(c) Standard for Fungible Tokens
+(d) Standard for Governance
+Correct Answer: c
+Question 113 MEDIUM
+What is a ’Library’ in Solidity?
+(a) A struct
+(b) Reusable code deployed once and called by contracts (using delegatecall)
+(c) A variable
+(d) A book store
+Correct Answer: b
+Question 114 HARD
+What is ’delegatecall’?
+(a) Remote call
+(b) Executes code in context of the CALLING contract (uses caller’s storage)
+(c) Calls a delegate
+(d) Standard call
+Correct Answer: b
+39
+Question 115 EASY
+What is ’assert()’ used for?
+(a) Printing
+(b) Input validation
+(c) Internal errors and invariants; consumes all gas if fails
+(d) Logging
+Correct Answer: c
+Question 116 MEDIUM
+Which unit is default for time in Solidity?
+(a) Days
+(b) Minutes
+(c) Seconds
+(d) Hours
+Correct Answer: c
+Question 117 HARD
+Can you generate true random numbers in Solidity easily?
+(a) Yes, asking miner
+(b) No, because the blockchain is deterministic
+(c) Yes, using time
+(d) Yes, using random()
+Correct Answer: b
+40
+Question 118 EASY
+What is an ’Oracle’?
+(a) A database
+(b) A god
+(c) A predictor
+(d) A bridge to fetch real-world o(cid:27)-chain data
+Correct Answer: d
+Question 119 MEDIUM
+Why do contracts need Oracles?
+(a) To read minds
+(b) To make money
+(c) To secure keys
+(d) Blockchains cannot access the internet directly
+Correct Answer: d
+Question 120 HARD
+Example of an Oracle service?
+(a) Twitter
+(b) Chainlink
+(c) Facebook
+(d) Google
+Correct Answer: b
+41
+Question 121 EASY
+What is ’IPFS’ commonly used for with NFT?
+(a) Mining
+(b) Storing the asset (image/metadata) o(cid:27)-chain
+(c) Trading
+(d) Buying
+Correct Answer: b
+Question 122 MEDIUM
+What is the ’Design Pattern’: Withdrawal Pattern?
+(a) Bank transfer
+(b) Users pull payments (withdraw) instead of contract pushing (transfer)
+(c) ATM
+(d) Contract pushes money
+Correct Answer: b
+Question 123 HARD
+Why use Withdrawal Pattern?
+(a) It costs more
+(b) It is harder
+(c) Prevents DoS attacks if one transfer fails in a loop
+(d) It is slower
+Correct Answer: c
+42
+Question 124 EASY
+What is ’Owner’ pattern?
+(a) Owning the coin
+(b) Setting an admin address that can call restricted functions
+(c) Owning the server
+(d) No owner
+Correct Answer: b
+Question 125 MEDIUM
+What library manages ’Ownable’?
+(a) React
+(b) Angular
+(c) JQuery
+(d) OpenZeppelin Ownable
+Correct Answer: d
+Question 126 HARD
+How do you access array length?
+(a) array.length
+(b) len(array)
+(c) count(array)
+(d) array.size()
+Correct Answer: a
+43
+Question 127 EASY
+How do you push to a dynamic array?
+(a) array.add(value)
+(b) array.push(value)
+(c) array.insert(value)
+(d) array.append(value)
+Correct Answer: b
+Question 128 MEDIUM
+What implies ’Atomicity’ in transactions?
+(a) Partial success
+(b) Nuclear power
+(c) All or nothing: if one part fails, everything reverts
+(d) Small size
+Correct Answer: c
+MODULE 3: DECENTRALIZED APPLICA-
+TIONS (DAPPS)
+Question 129 HARD
+What are the three tiers of a DApp?
+(a) HTML, CSS, JS
+(b) Client, Server, DB
+(c) Frontend, Backend, Database
+(d) Frontend, Smart Contract (Logic), Blockchain (Data)
+Correct Answer: d
+44
+Question 130 EASY
+Which JavaScript library interacts with Ethereum?
+(a) Three.js
+(b) React.js
+(c) JQuery
+(d) Web3.js or Ethers.js
+Correct Answer: d
+Question 131 MEDIUM
+What is ’Tru(cid:31)e’?
+(a) A development framework for Ethereum (compile, test, migrate)
+(b) A sweet
+(c) A wallet
+(d) A mushroom
+Correct Answer: a
+Question 132 HARD
+What does ’tru(cid:31)e init’ do?
+(a) Compiles code
+(b) Creates a basic project structure
+(c) Deletes project
+(d) Starts a node
+Correct Answer: b
+45
+Question 133 EASY
+What does ’tru(cid:31)e compile’ do?
+(a) Sends money
+(b) Mines blocks
+(c) Tests code
+(d) Compiles Solidity (cid:28)les into JSON artifacts (ABI/Bytecode)
+Correct Answer: d
+Question 134 MEDIUM
+What does ’tru(cid:31)e migrate’ do?
+(a) Migrates birds
+(b) Moves (cid:28)les
+(c) Updates Windows
+(d) Deploys smart contracts to the network
+Correct Answer: d
+Question 135 HARD
+What is ’Ganache’?
+(a) A food
+(b) A compiler
+(c) A personal local blockchain for testing deployment
+(d) A scanner
+Correct Answer: c
+46
+Question 136 EASY
+What is ’Metamask’?
+(a) A mask
+(b) A chat app
+(c) A browser extension wallet and Web3 injector
+(d) A game
+Correct Answer: c
+Question 137 MEDIUM
+What is a ’Provider’ in Web3?
+(a) The internet provider
+(b) The bank
+(c) The connection node (e.g. Infura, Localhost)
+(d) The user
+Correct Answer: c
+Question 138 HARD
+What is ’Infura’?
+(a) A wallet
+(b) A hosted Ethereum node service (Infrastructure as a Service)
+(c) A cleaner
+(d) A car
+Correct Answer: b
+47
+Question 139 EASY
+Why use Infura?
+(a) To hack
+(b) To save gas
+(c) To mine
+(d) To avoid running your own full node
+Correct Answer: d
+Question 140 MEDIUM
+What (cid:28)le stores Tru(cid:31)e con(cid:28)guration?
+(a) con(cid:28)g.xml
+(b) index.html
+(c) tru(cid:31)e-con(cid:28)g.js
+(d) package.json
+Correct Answer: c
+Question 141 HARD
+Where are compiled artifacts stored in Tru(cid:31)e?
+(a) ./dist
+(b) ./build/contracts
+(c) ./bin
+(d) ./out
+Correct Answer: b
+48
+Question 142 EASY
+Which command runs unit tests in Tru(cid:31)e?
+(a) run test
+(b) node test
+(c) tru(cid:31)e test
+(d) npm start
+Correct Answer: c
+Question 143 MEDIUM
+Tru(cid:31)e tests can be written in:
+(a) JavaScript (Mocha/Chai) or Solidity
+(b) C++
+(c) Java
+(d) Python
+Correct Answer: a
+Question 144 HARD
+What is ’Chai’?
+(a) A variable
+(b) Tea
+(c) A network
+(d) Assertion library used in testing
+Correct Answer: d
+49
+Question 145 EASY
+How does a DApp frontend sign transactions?
+(a) It cannot
+(b) Using password (cid:28)eld
+(c) Using Google login
+(d) Requests user signature via Metamask (Wallet)
+Correct Answer: d
+Question 146 MEDIUM
+What is the ’Ropsten’ network?
+(a) A virus
+(b) A public testnet (now deprecated/historic)
+(c) Private net
+(d) Mainnet
+Correct Answer: b
+Question 147 HARD
+What is the ’Goerli’ or ’Sepolia’ network?
+(a) Ethereum Testnets
+(b) Mainnets
+(c) Bitcoin networks
+(d) Databases
+Correct Answer: a
+50
+Question 148 EASY
+Why use a Testnet?
+(a) To make money
+(b) To test with worthless coins before spending real money
+(c) To hide data
+(d) To be faster
+Correct Answer: b
+Question 149 MEDIUM
+What is a ’Faucet’?
+(a) A website giving free testnet ETH
+(b) A sink
+(c) A hack
+(d) A game
+Correct Answer: a
+Question 150 HARD
+In Web3.js, how do you instantiate a contract?
+(a) import Contract
+(b) new Contract()
+(c) new web3.eth.Contract(abi, address)
+(d) getContract()
+Correct Answer: c
+51
+Question 151 EASY
+What is the di(cid:27)erence between .call() and .send()?
+(a) call() is read-only (free); send() writes (costs gas)
+(b) call costs gas
+(c) send is free
+(d) No di(cid:27)erence
+Correct Answer: a
+Question 152 MEDIUM
+What is ’BigNumber’ library used for?
+(a) Handling 256-bit integers in JS (which has max safe integer)
+(b) Big fonts
+(c) Calculating gas
+(d) Formatting
+Correct Answer: a
+Question 153 HARD
+Why does JS need BigNumber?
+(a) It is required by law
+(b) It is faster
+(c) Standard JS numbers lose precision for large crypto values
+(d) It looks better
+Correct Answer: c
+52
+Question 154 EASY
+What is ’React’ often used for in DApps?
+(a) Writing contracts
+(b) Building the Frontend UI
+(c) Database
+(d) Mining
+Correct Answer: b
+Question 155 MEDIUM
+What is ’IPFS’?
+(a) Internet Protocol
+(b) Internal File Server
+(c) Image Processing
+(d) InterPlanetary File System (Decentralized storage)
+Correct Answer: d
+Question 156 HARD
+How are (cid:28)les addressed in IPFS?
+(a) By Filename
+(b) By Content Hash (CID)
+(c) By Server IP
+(d) By URL
+Correct Answer: b
+53
+Question 157 EASY
+If you change a (cid:28)le in IPFS, what happens?
+(a) It updates in place
+(b) Nothing
+(c) The hash changes, so it’s a new address
+(d) It deletes
+Correct Answer: c
+Question 158 MEDIUM
+What implies ’Content Addressing’?
+(a) The address is a server
+(b) The address is random
+(c) The address is derived from the content itself
+(d) The address is manual
+Correct Answer: c
+Question 159 HARD
+What is ’Swarm’?
+(a) Ethereum’s native decentralized storage
+(b) A virus
+(c) A node
+(d) Use of bees
+Correct Answer: a
+54
+Question 160 EASY
+What is ’ENS’?
+(a) English Name System
+(b) Ether Net Service
+(c) Enterprise Network
+(d) Ethereum Name Service (resolves names to addresses)
+Correct Answer: d
+Question 161 MEDIUM
+Example of ENS name?
+(a) alice.org
+(b) alice.eth
+(c) alice.net
+(d) alice.com
+Correct Answer: b
+Question 162 HARD
+What is ’TDD’?
+(a) Test Data Design
+(b) Test Driven Development
+(c) The Daily Design
+(d) Technical Design Doc
+Correct Answer: b
+55
+Question 163 EASY
+In Tru(cid:31)e migration, what is ’artifacts.require’?
+(a) Loads a (cid:28)le
+(b) Loads the contract abstraction
+(c) requires a package
+(d) Errors out
+Correct Answer: b
+Question 164 MEDIUM
+What represents 1 Ether in Wei?
+(a) 109
+(a) 1000
+(b) 1018
+(b) 100
+Correct Answer: c
+Question 165 HARD
+What function serves the DApp to the browser?
+(a) A web server (e.g. LiteServer, Nginx)
+(b) The blockchain
+(c) The miner
+(d) The wallet
+Correct Answer: a
+56
+Question 166 EASY
+Does the Blockchain host the index.html?
+(a) Always
+(b) No, usually hosted on standard web server or IPFS
+(c) Yes
+(d) Sometimes
+Correct Answer: b
+Question 167 MEDIUM
+What is ’Event Listening’ in DApp?
+(a) Frontend waiting for blockchain events to update UI
+(b) Listening to music
+(c) Server polling
+(d) Waiting for email
+Correct Answer: a
+Question 168 HARD
+How does Metamask inject Web3?
+(a) window.ethereum object
+(b) window.web3 (legacy)
+(c) Via USB
+(d) It downloads (cid:28)le
+Correct Answer: a
+57
+Question 169 EASY
+What is ’Mainnet’?
+(a) The beta
+(b) The testnet
+(c) The live production blockchain with real value
+(d) The local net
+Correct Answer: c
+Question 170 MEDIUM
+What is ’HD Wallet’?
+(a) High De(cid:28)nition
+(b) Heavy Duty
+(c) Hierarchical Deterministic (generates tree of keys from seed)
+(d) Hard Drive
+Correct Answer: c
+Question 171 HARD
+What is a ’Mnemonic Phrase’?
+(a) A (cid:28)le
+(b) A password
+(c) A username
+(d) 12-24 words to recover a wallet
+Correct Answer: d
+58
+Question 172 EASY
+Why never share Mnemonic?
+(a) It is embarrassing
+(b) It is long
+(c) It grants full access to all keys/funds
+(d) It is code
+Correct Answer: c
+Question 173 MEDIUM
+What is ’Geth’?
+(a) Git
+(b) Get Here
+(c) Go-Ethereum (A CLI Ethereum Node client)
+(d) Go There
+Correct Answer: c
+Question 174 HARD
+To deploy to Ropsten, you need:
+(a) An account with Ropsten ETH and con(cid:28)gured provider
+(b) Permission
+(c) A license
+(d) Real money
+Correct Answer: a
+59
+Question 175 EASY
+What is ’infura.io’ Key?
+(a) API Key to access the node service
+(b) A coin
+(c) A wallet
+(d) A password
+Correct Answer: a
+Question 176 MEDIUM
+What wraps the Ethereum interaction in React?
+(a) CSS
+(b) Context API or Hooks (useWeb3)
+(c) HTML
+(d) SQL
+Correct Answer: b
+Question 177 HARD
+What is a ’State Channel’?
+(a) Radio
+(b) O(cid:27)-chain scaling solution (e.g. payment channel)
+(c) Chat
+(d) TV channel
+Correct Answer: b
+60
+Question 178 EASY
+What is ’Cross-Chain’?
+(a) Interoperability between di(cid:27)erent blockchains
+(b) A necklace
+(c) A bug
+(d) A constraint
+Correct Answer: a
+Question 179 MEDIUM
+What represents the ’Backend’ in a pure DApp?
+(a) Smart Contracts + Blockchain
+(b) PHP
+(c) Python
+(d) NodeJS
+Correct Answer: a
+Question 180 HARD
+Are DApp backends centralized?
+(a) Partially
+(b) Yes
+(c) Maybe
+(d) No, they are decentralized
+Correct Answer: d
+61
+Question 181 EASY
+What is ’Web 3.0’?
+(a) Mobile Web
+(b) Static Pages
+(c) Social Media
+(d) The decentralized web (Read-Write-Own)
+Correct Answer: d
+Question 182 MEDIUM
+What is ’Web 2.0’?
+(a) Future
+(b) Blockchain
+(c) The social/platform web (Read-Write)
+(d) Static
+Correct Answer: c
+Question 183 HARD
+Who pays for read operations on DApp?
+(a) Nobody (they are free)
+(b) The miner
+(c) The user
+(d) The dev
+Correct Answer: a
+62
+Question 184 EASY
+Who pays for write operations?
+(a) The user (gas fee)
+(b) The browser
+(c) Nobody
+(d) The dev
+Correct Answer: a
+Question 185 MEDIUM
+What is ’Sign Typed Data’?
+(a) Signing generic text
+(b) Standard (EIP-712) for signing readable structures
+(c) Typing password
+(d) Scanning QR
+Correct Answer: b
+Question 186 HARD
+What is ’Block Explorer’?
+(a) File Explorer
+(b) Map
+(c) Internet Explorer
+(d) Tool to view blocks/txs (e.g. Etherscan)
+Correct Answer: d
+63
+Question 187 EASY
+Why verify source code on Etherscan?
+(a) To sell
+(b) To compress
+(c) To hack
+(d) To build trust so users can read the code
+Correct Answer: d
+Question 188 MEDIUM
+What is ’ABI Encoding’?
+(a) Hiding
+(b) Formatting data to match EVM function calls
+(c) Zipping
+(d) Encrypting
+Correct Answer: b
+Question 189 HARD
+What is ’Localhost:8545’?
+(a) Google
+(b) Facebook
+(c) Default port for local Ganache node
+(d) Router
+Correct Answer: c
+64
+Question 190 EASY
+Can a DApp work o(cid:31)ine?
+(a) With cache
+(b) Maybe
+(c) No, needs connection to node
+(d) Yes
+Correct Answer: c
+MODULE 4: PLATFORMS ECOSYSTEM
+Question 191 MEDIUM
+What is ’Hyperledger Fabric’?
+(a) A cryptocurrency
+(b) A clothing brand
+(c) A public chain
+(d) A permissioned enterprise blockchain framework
+Correct Answer: d
+Question 192 HARD
+Who hosts the Hyperledger project?
+(a) The Linux Foundation
+(b) Google
+(c) Microsoft
+(d) Facebook
+Correct Answer: a
+65
+Question 193 EASY
+What distinguishes Fabric from Ethereum?
+(a) Fabric is public
+(b) Fabric is older
+(c) Fabric is permissioned, modular, and has no native coin
+(d) Fabric uses ETH
+Correct Answer: c
+Question 194 MEDIUM
+What is ’Chaincode’?
+(a) A necklace
+(b) Smart Contract in Hyperledger Fabric
+(c) Bitcoin code
+(d) Encryption
+Correct Answer: b
+Question 195 HARD
+What languages does Chaincode support?
+(a) Go, Java, Node.js
+(b) Solidity only
+(c) Python only
+(d) C# only
+Correct Answer: a
+66
+Question 196 EASY
+What is a ’Channel’ in Fabric?
+(a) A private subnet of communication between speci(cid:28)c members
+(b) A pipe
+(c) A TV station
+(d) A slack channel
+Correct Answer: a
+Question 197 MEDIUM
+What is ’MSP’?
+(a) My Secret Pass
+(b) Microsoft Paint
+(c) Managed Service
+(d) Membership Service Provider (Identity mgmt)
+Correct Answer: d
+Question 198 HARD
+What consensus does Fabric typically use?
+(a) Pluggable (e.g. Raft, Kafka, SOLO)
+(b) Proof of Stake
+(c) Proof of Work
+(d) None
+Correct Answer: a
+67
+Question 199 EASY
+What is ’BaaS’?
+(a) Base
+(b) Bank
+(c) Blockchain-as-a-Service (e.g. Azure Blockchain)
+(d) Boss
+Correct Answer: c
+Question 200 MEDIUM
+Azure Blockchain Service simpli(cid:28)es:
+(a) Buying ETH
+(b) Deployment/Management of consortium networks
+(c) Playing games
+(d) Mining Bitcoin
+Correct Answer: b
+Question 201 HARD
+What is the ’Scalability Trilemma’?
+(a) Three nodes
+(b) Three computers
+(c) Three coins
+(d) Trade-o(cid:27) between Decentralization, Security, and Scalability
+Correct Answer: d
+68
+Question 202 EASY
+What is ’Sharding’?
+(a) Sharing data
+(b) Encrypting
+(c) Breaking glass
+(d) Splitting the blockchain into partitions (shards) to scale
+Correct Answer: d
+Question 203 MEDIUM
+What is ’Proof of Stake’ (PoS)?
+(a) Proof of work
+(b) Mining with hardware
+(c) Proof of auth
+(d) Validators stake coins to propose blocks (energy e(cid:30)cient)
+Correct Answer: d
+Question 204 HARD
+What is ’Delegated Proof of Stake’ (DPoS)?
+(a) Voting for delegates to validate blocks
+(b) Centralized
+(c) Direct staking
+(d) Mining
+Correct Answer: a
+69
+Question 205 EASY
+What is ’Hashgraph’?
+(a) A DAG-based consensus protocol (Gossip about Gossip)
+(b) A chart
+(c) A hash
+(d) A blockchain
+Correct Answer: a
+Question 206 MEDIUM
+Is Hashgraph a Blockchain?
+(a) No, it is a DLT (Distributed Ledger) using DAG
+(b) Maybe
+(c) Yes
+(d) It is Bitcoin
+Correct Answer: a
+Question 207 HARD
+What is ’DAG’?
+(a) Direct Access Gate
+(b) Data Access Group
+(c) Directed Acyclic Graph
+(d) Dog And Goat
+Correct Answer: c
+70
+Question 208 EASY
+What is ’Corda’?
+(a) A car
+(b) A rope
+(c) R3’s enterprise DLT for (cid:28)nance
+(d) A coin
+Correct Answer: c
+Question 209 MEDIUM
+What is ’Ripple’ (XRP) focussed on?
+(a) Smart Contracts
+(b) Storage
+(c) Interbank settlement / Remittance
+(d) Gaming
+Correct Answer: c
+Question 210 HARD
+What is ’Stablecoin’?
+(a) Fake coin
+(b) Horse coin
+(c) Crypto pegged to a stable asset (e.g. USD) to minimize volatility
+(d) Volatile coin
+Correct Answer: c
+71
+Question 211 EASY
+Example of Stablecoin?
+(a) BTC
+(b) USDT or USDC
+(c) DOGE
+(d) ETH
+Correct Answer: b
+Question 212 MEDIUM
+What is ’DeFi’?
+(a) Design Fi
+(b) Digital Fi
+(c) Decentralized Finance
+(d) De(cid:28)ned Finance
+Correct Answer: c
+Question 213 HARD
+What is a ’DEX’?
+(a) Directory
+(b) Decentralized Exchange (e.g. Uniswap)
+(c) Index
+(d) Database
+Correct Answer: b
+72
+Question 214 EASY
+What is ’Dao’?
+(a) Way
+(b) Road
+(c) Person
+(d) Decentralized Autonomous Organization
+Correct Answer: d
+Question 215 MEDIUM
+famous ’The DAO’ hack happened on?
+(a) Fabric
+(b) Ethereum
+(c) Corda
+(d) Bitcoin
+Correct Answer: b
+Question 216 HARD
+What is ’Permissioned’ vs ’Permissionless’?
+(a) Blue vs Red
+(b) Rich vs Poor
+(c) Known identity vs Anonymous
+(d) Fast vs Slow
+Correct Answer: c
+73
+Question 217 EASY
+What is ’Zero Knowledge Proof’ (ZKP)?
+(a) Magic
+(b) Knowing nothing
+(c) Guessing
+(d) Proving you know data without revealing the data itself
+Correct Answer: d
+Question 218 MEDIUM
+Example of Privacy Coin?
+(a) Monero or Zcash
+(b) USDT
+(c) Ether
+(d) Bitcoin
+Correct Answer: a
+Question 219 HARD
+What is ’Interoperability’?
+(a) Internal ability
+(b) Internet speed
+(c) Ability of di(cid:27)erent chains to communicate
+(d) Intranet
+Correct Answer: c
+74
+Question 220 EASY
+What is ’Cosmos’ or ’Polkadot’?
+(a) Coins only
+(b) So-called Layer 0 / Interoperability protocols
+(c) Planets
+(d) Websites
+Correct Answer: b
+Question 221 MEDIUM
+What is ’Tether’?
+(a) A centralized stablecoin
+(b) A wallet
+(c) A rope
+(d) A blockchain
+Correct Answer: a
+Question 222 HARD
+What is ’Governance’ in blockchain?
+(a) Government
+(b) Rules/Processes for protocol upgrades/changes
+(c) Taxes
+(d) Police
+Correct Answer: b
+75
+Question 223 EASY
+On-chain Governance means:
+(a) Voting happens via tokens/protocol directly
+(b) Voting in senate
+(c) No voting
+(d) Voting by email
+Correct Answer: a
+Question 224 MEDIUM
+O(cid:27)-chain Governance means:
+(a) On server
+(b) On chain
+(c) Automated
+(d) Decisions made socially/forums then implemented (like Bitcoin)
+Correct Answer: d
+Question 225 HARD
+What is ’Self-Sovereign Identity’ (SSI)?
+(a) Google Login
+(b) State ID
+(c) User owns/controls their identity credentials
+(d) Passport
+Correct Answer: c
+76
+Question 226 EASY
+What is ’Orphan Block’?
+(a) Sad block
+(b) Empty block
+(c) Valid block not part of main chain (stale)
+(d) Red block
+Correct Answer: c
+Question 227 MEDIUM
+What is ’Uncle Block’ in Ethereum?
+(a) Aunts
+(b) Parents
+(c) Stale block that still gets a partial reward
+(d) Cousins
+Correct Answer: c
+Question 228 HARD
+Why Uncle rewards?
+(a) Error
+(b) To incentivize security even if beaten by speed
+(c) Charity
+(d) Bug
+Correct Answer: b
+77
+Question 229 EASY
+What is ’Casper’?
+(a) Wallet
+(b) Miner
+(c) Ethereum’s PoS (cid:28)nality gadget
+(d) Ghost
+Correct Answer: c
+Question 230 MEDIUM
+What is ’Solana’ known for?
+(a) Slowness
+(b) Old tech
+(c) High throughput and Proof of History
+(d) Privacy
+Correct Answer: c
+Question 231 HARD
+What is ’Flash Loan’?
+(a) Uncollateralized loan valid only within one transaction
+(b) Bank loan
+(c) Credit card
+(d) Fast money
+Correct Answer: a
+78
+Question 232 EASY
+What is ’Yield Farming’?
+(a) Gaming
+(b) Agriculture
+(c) Mining
+(d) Earning rewards by providing liquidity
+Correct Answer: d
+Question 233 MEDIUM
+What is ’Liquidity Pool’?
+(a) Swimming pool
+(b) Water
+(c) Pile of funds locked in a smart contract for trading
+(d) Cash
+Correct Answer: c
+Question 234 HARD
+What is ’Automated Market Maker’ (AMM)?
+(a) Stock market
+(b) Algorithm pricing assets based on ratio in pool
+(c) Human broker
+(d) Robot
+Correct Answer: b
+79
+Question 235 EASY
+What is ’Impermanent Loss’?
+(a) Pro(cid:28)t
+(b) Gain
+(c) Loss of funds in LP compared to holding HODL
+(d) Permanent loss
+Correct Answer: c
+Question 236 MEDIUM
+What is ’Wrapped Bitcoin’ (WBTC)?
+(a) Paper
+(b) Coin
+(c) Gift
+(d) BTC represented on Ethereum (ERC20)
+Correct Answer: d
+Question 237 HARD
+What is ’Layer 1’?
+(a) UI
+(b) The base blockchain (e.g. Ethereum)
+(c) App
+(d) L2
+Correct Answer: b
+80
+Question 238 EASY
+What is ’Rollup’ (Optimistic/ZK)?
+(a) Paper
+(b) Sushi
+(c) Carpet
+(d) L2 scaling by bundling txs o(cid:27)-chain
+Correct Answer: d
+Question 239 MEDIUM
+What is ’CBDC’?
+(a) Crypto
+(b) Coin
+(c) Code
+(d) Central Bank Digital Currency
+Correct Answer: d
+Question 240 HARD
+Di(cid:27)erence between CBDC and Bitcoin?
+(a) No di(cid:27)erence
+(b) BTC is Gov
+(c) CBDC is centralized/Gov issued; BTC is decentralized
+(d) CBDC is better
+Correct Answer: c
+81
+Question 241 EASY
+What is ’Supply Chain’ use case?
+(a) Tracking provenance and logistics transparency
+(b) Wearing chains
+(c) Selling chains
+(d) Buying chains
+Correct Answer: a
+Question 242 MEDIUM
+What is ’Credential Veri(cid:28)cation’ use case?
+(a) Email
+(b) Verifying degrees/certs on blockchain
+(c) Login
+(d) Password
+Correct Answer: b
+Question 243 HARD
+What is ’Energy Consumption’ critique?
+(a) PoS consumes energy
+(b) PoW consumes vast electricity
+(c) Blockchain is green
+(d) Computers are hot
+Correct Answer: b
+82
+Question 244 EASY
+Why move to PoS?
+(a) Energy e(cid:30)ciency (>99% reduction)
+(b) make money
+(c) centralize
+(d) slow down
+Correct Answer: a
+Question 245 MEDIUM
+What is ’Web3.js’?
+(a) Website
+(b) Language
+(c) Library to talk to Ethereum node
+(d) Frame
+Correct Answer: c
+Question 246 HARD
+What is ’EIP’?
+(a) Exit
+(b) Email
+(c) Error
+(d) Ethereum Improvement Proposal
+Correct Answer: d
+83
+Question 247 EASY
+What is ’ERC’?
+(a) Entity
+(b) Error
+(c) Ethereum Request for Comments (Application Standard)
+(d) Event
+Correct Answer: c
+Question 248 MEDIUM
+What is the ’Merge’ (Ethereum)?
+(a) Transition from PoW to PoS
+(b) Database merge
+(c) Fork
+(d) Merging companies
+Correct Answer: a
+Question 249 HARD
+What is ’Beacon Chain’?
+(a) Lighthouse
+(b) The coordinator chain for Eth2 PoS
+(c) Fire
+(d) Light
+Correct Answer: b
+84
+Question 250 EASY
+What is ’Nostr’?
+(a) A bank
+(b) A decentralized social protocol (Notes and Other Stu(cid:27) Transmitted by Relays)
+(c) A coin
+(d) A game
+Correct Answer: b
+Question 251 MEDIUM
+What is ’BlueSky’?
+(a) Rain
+(b) Cloud
+(c) Decentralized social network protocol (AT Protocol)
+(d) Sky
+Correct Answer: c
+Question 252 HARD
+What is ’Lens Protocol’?
+(a) Eye
+(b) Camera
+(c) Glass
+(d) Social graph protocol for Web3
+Correct Answer: d
+85
+Question 253 EASY
+What is ’Farcaster’?
+(a) Su(cid:30)ciently decentralized social network
+(b) Weather
+(c) Radio
+(d) News
+Correct Answer: a
+Question 254 MEDIUM
+What is ’ActivityPub’?
+(a) Pub
+(b) Decentralized social networking protocol (used by Mastodon)
+(c) Activity
+(d) Bar
+Correct Answer: b
+86
+
+
+===== SOURCE: blockchain_part_2.pdf =====
+
+
+BLOCKCHAIN - PART 2
+Syrym Zhakypbekov
+December 18, 2025
+Contents
+MODULE 1: BLOCKCHAIN BASICS 2
+MODULE 2: SMART CONTRACTS 23
+MODULE 3: DECENTRALIZED APPLICATIONS (DAPPS) 44
+MODULE 4: PLATFORMS ECOSYSTEM 65
+1
+MODULE 1: BLOCKCHAIN BASICS
+Question 1 EASY
+What does ’DLT’ stand for?
+(a) Double Ledger Tech
+(b) Data Link Tech
+(c) Digital Ledger Tech
+(d) Distributed Ledger Technology
+Correct Answer: d
+Question 2 MEDIUM
+What is the ’Longest Chain Rule’ in Bitcoin?
+(a) The chain owned by Google
+(b) The chain with most transactions
+(c) The chain with most blocks always wins
+(d) Nodes accept the chain with the most accumulated Proof of Work as valid
+Correct Answer: d
+Question 3 HARD
+What is a ’Sybille Attack’ (Sybil)?
+(a) Mining attack
+(b) DDOS
+(c) Stealing passwords
+(d) Creating multiple fake identities to subvert the network
+Correct Answer: d
+2
+Question 4 EASY
+Which cryptographic family does Bitcoin use?
+(a) Elliptic Curve Cryptography (secp256k1)
+(b) DES
+(c) AES
+(d) RSA
+Correct Answer: a
+Question 5 MEDIUM
+What is the exact block time target for Bitcoin?
+(a) 5 seconds
+(b) 1 hour
+(c) 1 minute
+(d) 10 minutes
+Correct Answer: d
+Question 6 HARD
+What data is stored in the ’State Root’ of Ethereum?
+(a) Only transactions
+(b) The root hash of the global state trie (account balances, code, storage)
+(c) Only logs
+(d) Only receipts
+Correct Answer: b
+3
+Question 7 EASY
+Which unit is 109Wei?
+(a) Finney
+(b) Szabo
+(c) Gwei
+(d) Ether
+Correct Answer: c
+Question 8 MEDIUM
+What is a ’pre-mine’?
+(a) Mining slowly
+(b) Mining after launch
+(c) Mining fast
+(d) When developers mine coins for themselves before public launch
+Correct Answer: d
+Question 9 HARD
+What is ’Di(cid:30)culty’ in mining?
+(a) A measure of how hard it is to (cid:28)nd a hash below the target
+(b) The electricity cost
+(c) The price of hardware
+(d) The internet speed
+Correct Answer: a
+4
+Question 10 EASY
+What happens if two miners (cid:28)nd a block simultaneously?
+(a) Both are rejected
+(b) Network stops
+(c) The chain forks temporarily until one side becomes longer
+(d) Both are accepted forever
+Correct Answer: c
+Question 11 MEDIUM
+What is ’Con(cid:28)rmation’ in Bitcoin?
+(a) A email receipt
+(b) A text message
+(c) A phone call
+(d) The number of blocks added on top of the block containing the tx
+Correct Answer: d
+Question 12 HARD
+Why is 6 con(cid:28)rmations recommended for Bitcoin?
+(a) It is a lucky number
+(b) Satoshi said so
+(c) It makes the probability of reversal statistically negligible
+(d) It takes 1 hour
+Correct Answer: c
+5
+Question 13 EASY
+What is ’SegWit’?
+(a) New coin
+(b) New wallet
+(c) Segregated Witness (soft fork to (cid:28)x malleability and scale)
+(d) New miner
+Correct Answer: c
+Question 14 MEDIUM
+What is the max supply of Bitcoin?
+(a) 100 Million
+(b) In(cid:28)nity
+(c) 1 Billion
+(d) 21 Million
+Correct Answer: d
+Question 15 HARD
+What is Ethereum’s in(cid:29)ation model?
+(a) Random
+(b) 2% per year (cid:28)xed
+(c) Fixed cap like Bitcoin
+(d) No hard cap, but issuance is reduced (burning mechanism EIP-1559)
+Correct Answer: d
+6
+Question 16 EASY
+What is ’Gas Limit’ in a block?
+(a) The maximum users
+(b) The maximum total gas of all transactions in a block
+(c) The maximum speed
+(d) The maximum (cid:28)le size
+Correct Answer: b
+Question 17 MEDIUM
+What is ’Uncle Reward’ used for?
+(a) To pay taxes
+(b) To buy hardware
+(c) To pay developers
+(d) To reward miners for valid but stale blocks (improving security)
+Correct Answer: d
+Question 18 HARD
+What is ’Merkle Proof’?
+(a) A ID card
+(b) A password
+(c) A cryptographic proof that a speci(cid:28)c transaction is in a block
+(d) A legal document
+Correct Answer: c
+7
+Question 19 EASY
+What is a ’Light Client’?
+(a) A heavy server
+(b) A client that downloads only block headers and veri(cid:28)es via Merkle Proofs
+(c) A (cid:29)ashlight
+(d) A mining pool
+Correct Answer: b
+Question 20 MEDIUM
+What is ’SPV’?
+(a) Secure Password
+(b) Special Payment
+(c) Simple Protocol
+(d) Simpli(cid:28)ed Payment Veri(cid:28)cation (Light Clients)
+Correct Answer: d
+Question 21 HARD
+What is a ’Full Node’?
+(a) A miner only
+(b) A node that downloads and validates every transaction and block
+(c) A partial node
+(d) A wallet only
+Correct Answer: b
+8
+Question 22 EASY
+What is ’Hash Rate’?
+(a) The speed at which a computer is completing the hashing algorithm
+(b) Internet speed
+(c) Download speed
+(d) Upload speed
+Correct Answer: a
+Question 23 MEDIUM
+What is ’ASIC’?
+(a) A software
+(b) A website
+(c) A virus
+(d) Application Speci(cid:28)c Integrated Circuit (specialized mining hardware)
+Correct Answer: d
+Question 24 HARD
+Why did Ethereum enable ’The Merge’?
+(a) To increase fees
+(b) To stop mining
+(c) To delete data
+(d) To switch from PoW to PoS for energy e(cid:30)ciency
+Correct Answer: d
+9
+Question 25 EASY
+What is ’Proof of Authority’?
+(a) Anyone can mine
+(b) Validators are approved trusted entities
+(c) Burning coins
+(d) Staking money
+Correct Answer: b
+Question 26 MEDIUM
+What is ’Proof of Burn’?
+(a) Burning hardware
+(b) Send coins to an unspendable address to earn mining rights
+(c) Burning passwords
+(d) Burning paper
+Correct Answer: b
+Question 27 HARD
+What is ’Cryptographic Hash Function’ property?
+(a) Random, Slow
+(b) Deterministic, Quick, Pre-image resistance, Avalanche e(cid:27)ect
+(c) Secret
+(d) Reversible
+Correct Answer: b
+10
+Question 28 EASY
+What is ’Avalanche E(cid:27)ect’?
+(a) Snow falling
+(b) Price drop
+(c) Network crash
+(d) A small change in input results in a massive change in output hash
+Correct Answer: d
+Question 29 MEDIUM
+What is ’Collision Resistance’?
+(a) No resistance
+(b) It is infeasible to (cid:28)nd two inputs that hash to the same output
+(c) Cars crashing
+(d) Network collision
+Correct Answer: b
+Question 30 HARD
+What is ’Public Key Infrastructure’ (PKI)?
+(a) A server room
+(b) A building
+(c) A network cable
+(d) Framework for encryption and signing using public/private keys
+Correct Answer: d
+11
+Question 31 EASY
+What is ’Digital Signature’?
+(a) Photo of face
+(b) Email footer
+(c) Handwritten signature
+(d) Mathematical scheme to verify authenticity
+Correct Answer: d
+Question 32 MEDIUM
+In Ethereum, what is a ’Contract Account’?
+(a) A user account
+(b) A bank account
+(c) A savings account
+(d) An account controlled by code (has codeHash)
+Correct Answer: d
+Question 33 HARD
+In Ethereum, what is an ’EOA’?
+(a) Miner
+(b) Contract Account
+(c) Externally Owned Account (controlled by Private Key)
+(d) Validator
+Correct Answer: c
+12
+Question 34 EASY
+Can an EOA contain code?
+(a) No, only Contract Accounts can
+(b) Sometimes
+(c) Yes
+(d) Maybe
+Correct Answer: a
+Question 35 MEDIUM
+Who initiates a transaction in Ethereum?
+(a) A Contract
+(b) Always an EOA
+(c) A Miner
+(d) The Network
+Correct Answer: b
+Question 36 HARD
+Can a Smart Contract initiate a transaction essentially?
+(a) Always
+(b) No, it must be triggered by an EOA (or via Chainlink Automation)
+(c) Never
+(d) Yes
+Correct Answer: b
+13
+Question 37 EASY
+What is ’Base Fee’ (EIP-1559)?
+(a) The wallet fee
+(b) The minimum gas price required for a block, which is burned
+(c) The max fee
+(d) The miner tip
+Correct Answer: b
+Question 38 MEDIUM
+What is ’Priority Fee’ (Tip)?
+(a) Fee paid directly to miner to prioritize inclusion
+(b) Tax
+(c) Base fee
+(d) Burn fee
+Correct Answer: a
+Question 39 HARD
+What is the ’Genesis Address’?
+(a) Google
+(b) Vitalik’s wallet
+(c) Satoshi’s wallet
+(d) The (cid:28)rst address (often 0x000...)
+Correct Answer: d
+14
+Question 40 EASY
+What is ’Block Height’?
+(a) The time
+(b) The weight
+(c) The sequential number of a block (0, 1, 2...)
+(d) The size of block
+Correct Answer: c
+Question 41 MEDIUM
+What is ’Reorg’ (Chain Reorganization)?
+(a) When a node switches to a longer chain, discarding its current top blocks
+(b) Clean up
+(c) Sorting database
+(d) Organizing (cid:28)les
+Correct Answer: a
+Question 42 HARD
+Why are Reorgs dangerous?
+(a) They save space
+(b) Transactions in discarded blocks become invalid (unless re-mined)
+(c) They are not
+(d) They are fast
+Correct Answer: b
+15
+Question 43 EASY
+What is ’Finality’?
+(a) Death
+(b) Stopping
+(c) The end of exam
+(d) Ideally, the point where a block can never be reverted
+Correct Answer: d
+Question 44 MEDIUM
+Bitcoin has what kind of (cid:28)nality?
+(a) Absolute Finality
+(b) No Finality
+(c) Instant Finality
+(d) Probabilistic Finality
+Correct Answer: d
+Question 45 HARD
+What is ’Instant Finality’?
+(a) PoS
+(b) Once a block is added, it is immediately irreversible (e.g. some PBFT)
+(c) PoW
+(d) Mining
+Correct Answer: b
+16
+Question 46 EASY
+What is a ’Memo’ or ’Data’ (cid:28)eld in a tx?
+(a) File
+(b) Optional text/data attached to a transaction
+(c) Password
+(d) Username
+Correct Answer: b
+Question 47 MEDIUM
+How large is a standard Bitcoin transaction?
+(a) 1 GB
+(b) 250-500 bytes
+(c) 10 MB
+(d) 1 KB
+Correct Answer: b
+Question 48 HARD
+What is ’OpCode’?
+(a) Secret code
+(b) Username
+(c) Password
+(d) Operation Code (instruction) in Script or EVM
+Correct Answer: d
+17
+Question 49 EASY
+What is ’Turing Incomplete’?
+(a) Slow computer
+(b) Lost computer
+(c) Broken computer
+(d) System that cannot compute everything (e.g. loops forbidden)
+Correct Answer: d
+Question 50 MEDIUM
+Is Bitcoin Script Turing Complete?
+(a) Partially
+(b) Yes
+(c) Maybe
+(d) No (intentionally limited for security)
+Correct Answer: d
+Question 51 HARD
+What is ’Cold Staking’?
+(a) Frozen coins
+(b) Ice mining
+(c) Mining inside fridge
+(d) Staking coins while they are kept in an o(cid:31)ine wallet
+Correct Answer: d
+18
+Question 52 EASY
+What is ’Slashing’ in PoS?
+(a) Cutting cable
+(b) Penalty (loss of coins) for malicious behavior by validator
+(c) Speeding
+(d) Hacking
+Correct Answer: b
+Question 53 MEDIUM
+Example of Slashing o(cid:27)ense?
+(a) Double Signing (signing two blocks at same height)
+(b) Going o(cid:31)ine
+(c) Mining fast
+(d) Being slow
+Correct Answer: a
+Question 54 HARD
+What is ’Voting Power’ in PoS?
+(a) One person one vote
+(b) CPU speed
+(c) Usually proportional to the amount staked
+(d) Random
+Correct Answer: c
+19
+Question 55 EASY
+What is ’Nothing at Stake’ problem?
+(a) No money
+(b) No risk
+(c) No hardware
+(d) PoS challenge where validators can vote on all forks at no cost
+Correct Answer: d
+Question 56 MEDIUM
+What solves ’Nothing at Stake’?
+(a) More hardware
+(b) Faster internet
+(c) More RAM
+(d) Slashing conditions
+Correct Answer: d
+Question 57 HARD
+What is ’Faucet’ used for?
+(a) Cleaning
+(b) Drinking
+(c) Getting testnet coins
+(d) Washing
+Correct Answer: c
+20
+Question 58 EASY
+What is ’Rinkeby’?
+(a) Deprecated Ethereum Testnet
+(b) Person
+(c) Code
+(d) City
+Correct Answer: a
+Question 59 MEDIUM
+What is ’Sepolia’?
+(a) Token
+(b) Coin
+(c) Food
+(d) Current recommended Ethereum Testnet for Application Development
+Correct Answer: d
+Question 60 HARD
+What is ’Goerli’?
+(a) Place
+(b) Game
+(c) Current recommended Ethereum Testnet for Staking/Protocol testing
+(d) Animal
+Correct Answer: c
+21
+Question 61 EASY
+What is a ’Paper Wallet’?
+(a) Fake money
+(b) Wallet made of paper
+(c) Physical printout of private/public keys
+(d) Toy
+Correct Answer: c
+Question 62 MEDIUM
+What is a ’Brain Wallet’?
+(a) Smart wallet
+(b) AI wallet
+(c) Memorizing the seed phrase (no physical record)
+(d) Headphone
+Correct Answer: c
+Question 63 HARD
+What is ’Vanity Address’?
+(a) Mirror
+(b) Address starting with speci(cid:28)c char (e.g. 1Love...)
+(c) Fake address
+(d) Long address
+Correct Answer: b
+22
+Question 64 EASY
+What is ’HD Path’?
+(a) Map
+(b) Hard Drive path
+(c) Derivation path for keys (e.g. m/44’/60’/0’/0)
+(d) Road
+Correct Answer: c
+Question 65 MEDIUM
+What is ’BIP’?
+(a) Basic IP
+(b) Binary IP
+(c) Bitcoin Improvement Proposal
+(d) Big IP
+Correct Answer: c
+MODULE 2: SMART CONTRACTS
+Question 66 HARD
+What does ’SOLIDITY_VERSION’ pragma ensure?
+(a) Contract name
+(b) Gas cost
+(c) Variable type
+(d) Compiler compatibility
+Correct Answer: d
+23
+Question 67 EASY
+What is the equivalent of ’public’ variable?
+(a) It automatically creates a getter function
+(b) It is open source
+(c) It is insecure
+(d) It is free
+Correct Answer: a
+Question 68 MEDIUM
+How do you specify Ether value in Remix deployment?
+(a) Writing value in code
+(b) Using the ’Value’ (cid:28)eld in ’Run’ tab
+(c) You cannot
+(d) Sending email
+Correct Answer: b
+Question 69 HARD
+What is ’unchecked’ block in Solidity 0.8+?
+(a) Function
+(b) Loop
+(c) Unsafe code
+(d) Disables over(cid:29)ow/under(cid:29)ow checks to save gas
+Correct Answer: d
+24
+Question 70 EASY
+What happens on integer over(cid:29)ow in Solidity <0.8?
+(a) It crashes
+(b) It throws error
+(c) It wraps around (e.g. 255+1 = 0 for uint8)
+(d) It stops
+Correct Answer: c
+Question 71 MEDIUM
+What happens on integer over(cid:29)ow in Solidity 0.8+?
+(a) It wraps
+(b) It continues
+(c) It ignores
+(d) It reverts automatically
+Correct Answer: d
+Question 72 HARD
+What is ’enum’?
+(a) List
+(b) Number
+(c) User-de(cid:28)ned type with named constants
+(d) String
+Correct Answer: c
+25
+Question 73 EASY
+What is default value of ’bool’?
+(a) null
+(b) unde(cid:28)ned
+(c) false
+(d) true
+Correct Answer: c
+Question 74 MEDIUM
+What is default value of ’uint’?
+(a) 1
+(b) null
+(c) 0
+(d) -1
+Correct Answer: c
+Question 75 HARD
+What is default value of ’address’?
+(a) None
+(b) 0x0000000000000000000000000000000000000000
+(c) 1
+(d) Wallet
+Correct Answer: b
+26
+Question 76 EASY
+What is ’keccak256’ input type?
+(a) string
+(b) int
+(c) bytes
+(d) bool
+Correct Answer: c
+Question 77 MEDIUM
+How to convert string to bytes?
+(a) string.toBytes()
+(b) convert(string)
+(c) parse(string)
+(d) bytes(string_variable)
+Correct Answer: d
+Question 78 HARD
+What is ’abi.encodePacked’?
+(a) Encrypt
+(b) Tightly packed encoding (saves space, but ambiguous)
+(c) Zip
+(d) Sign
+Correct Answer: b
+27
+Question 79 EASY
+What is ’ecrecover’?
+(a) Recover email
+(b) Recover (cid:28)le
+(c) Recover password
+(d) Function to recover address from signature
+Correct Answer: d
+Question 80 MEDIUM
+What is ’tx.origin’?
+(a) The node
+(b) The EOA that signed the original transaction
+(c) The miner
+(d) The contract caller
+Correct Answer: b
+Question 81 HARD
+Why is ’tx.origin’ dangerous for auth?
+(a) It is expensive
+(b) It is slow
+(c) It is text
+(d) Phishing attack (contract can trick user to call it)
+Correct Answer: d
+28
+Question 82 EASY
+What should you use instead of ’tx.origin’?
+(a) msg.sender
+(b) block.coinbase
+(c) msg.value
+(d) tx.origin
+Correct Answer: a
+Question 83 MEDIUM
+What is ’block.coinbase’?
+(a) Coinbase website
+(b) A coin
+(c) Address of the miner producing the block
+(d) A base
+Correct Answer: c
+Question 84 HARD
+What is ’block.di(cid:30)culty’ (now prevrandao)?
+(a) Hardness
+(b) Speed
+(c) Price
+(d) Di(cid:30)culty of current block (randomness source)
+Correct Answer: d
+29
+Question 85 EASY
+What is ’block.chainid’?
+(a) Block ID
+(b) Current chain ID
+(c) User ID
+(d) Tx ID
+Correct Answer: b
+Question 86 MEDIUM
+What is ’delete’ keyword?
+(a) Kills connection
+(b) Removes (cid:28)le
+(c) Resets variable to default value (refunds gas)
+(d) Deletes contract
+Correct Answer: c
+Question 87 HARD
+Can you delete a mapping?
+(a) Yes
+(b) Maybe
+(c) No, only individual keys
+(d) Yes completely
+Correct Answer: c
+30
+Question 88 EASY
+What does ’super’ keyword do?
+(a) Calls function in parent contract
+(b) Superman
+(c) Root
+(d) Super user
+Correct Answer: a
+Question 89 MEDIUM
+What is ’virtual’ keyword?
+(a) Online
+(b) Fake
+(c) Digital
+(d) Allows function to be overridden
+Correct Answer: d
+Question 90 HARD
+What is ’override’ keyword?
+(a) Overwrite (cid:28)le
+(b) Indicates function overrides a parent function
+(c) Overclock
+(d) Overpower
+Correct Answer: b
+31
+Question 91 EASY
+What is ’immutable’ variable?
+(a) Variable
+(b) Mutable
+(c) Set once at construction time, read-only afterwards
+(d) Changeable
+Correct Answer: c
+Question 92 MEDIUM
+Di(cid:27)erence between ’constant’ and ’immutable’?
+(a) Size
+(b) No di(cid:27)erence
+(c) Color
+(d) Constant is hardcoded at compile; Immutable set at deploy
+Correct Answer: d
+Question 93 HARD
+What is ’indexed’ in Events?
+(a) Allows searching/(cid:28)ltering logs by that parameter
+(b) Sorting
+(c) Database
+(d) Performance
+Correct Answer: a
+32
+Question 94 EASY
+Max indexed parameters in an event?
+(a) In(cid:28)nity
+(b) 1
+(c) 10
+(d) 3
+Correct Answer: d
+Question 95 MEDIUM
+What is ’Anonymous Event’?
+(a) Private party
+(b) Event without name signature (cheaper gas)
+(c) Hidden log
+(d) Secret event
+Correct Answer: b
+Question 96 HARD
+What is ’try/catch’ in Solidity?
+(a) Testing
+(b) Error handling for external calls
+(c) Catch (cid:28)sh
+(d) Try ball
+Correct Answer: b
+33
+Question 97 EASY
+Can you use try/catch on internal calls?
+(a) Yes
+(b) Sometimes
+(c) Always
+(d) No, only external
+Correct Answer: d
+Question 98 MEDIUM
+What is ’Receive’ vs ’Fallback’?
+(a) Same
+(b) Recieve is slower
+(c) Receive is only for empty data ETH transfers; Fallback for everything else
+(d) No di(cid:27)erence
+Correct Answer: c
+Question 99 HARD
+What is ’CREATE2’?
+(a) Opcode to deploy contract at deterministic address
+(b) Create user
+(c) Create folder
+(d) Create (cid:28)le
+Correct Answer: a
+34
+Question 100 EASY
+What is ’Proxy Contract’?
+(a) Client
+(b) Contract that delegates logic to another (implementation) contract
+(c) VPN
+(d) Server
+Correct Answer: b
+Question 101 MEDIUM
+Why use Proxy Pattern?
+(a) To hide IP
+(b) To be fast
+(c) To enable upgradeability of smart contracts
+(d) To be cheap
+Correct Answer: c
+Question 102 HARD
+What is ’Storage Slot’?
+(a) Parking slot
+(b) SD Card slot
+(c) USB slot
+(d) 32-byte chunk where state is stored
+Correct Answer: d
+35
+Question 103 EASY
+How are state variables laid out?
+(a) Contiguously in storage slots
+(b) In (cid:28)le
+(c) In cloud
+(d) Randomly
+Correct Answer: a
+Question 104 MEDIUM
+What is ’Pull Payment’?
+(a) Credit card
+(b) User withdraws funds rather than contract sending
+(c) Push payment
+(d) Contract sends
+Correct Answer: b
+Question 105 HARD
+What is ’Checks-E(cid:27)ects-Interactions’?
+(a) Interact (cid:28)rst
+(b) Random order
+(c) No checks
+(d) Security pattern: Check conditions, Update state, Then Interact
+Correct Answer: d
+36
+Question 106 EASY
+What is ’ReentrancyGuard’?
+(a) Mutex modi(cid:28)er to prevent re-entrant calls
+(b) Security guard
+(c) Firewall
+(d) Guard dog
+Correct Answer: a
+Question 107 MEDIUM
+What is ’Yul’?
+(a) Food
+(b) Person
+(c) Intermediate language for inline assembly in Solidity
+(d) Place
+Correct Answer: c
+Question 108 HARD
+What is ’assembly { ... }’ block?
+(a) Code assembly
+(b) Meeting
+(c) Car assembly
+(d) Writing low-level EVM code inside Solidity
+Correct Answer: d
+37
+Question 109 EASY
+Why use Assembly?
+(a) It is easier
+(b) It is python
+(c) Gas optimization or unsupported operations
+(d) It is fun
+Correct Answer: c
+Question 110 MEDIUM
+What is ’transfer’ vs ’send’?
+(a) Transfer reverts on failure; Send returns false
+(b) Send reverts
+(c) Same
+(d) Transfer returns false
+Correct Answer: a
+Question 111 HARD
+Limitation of ’transfer’ and ’send’?
+(a) Slow
+(b) Unlimited gas
+(c) Fixed 2300 gas stipend (may break with smart wallets)
+(d) Expensive
+Correct Answer: c
+38
+Question 112 EASY
+Recommended way to send ETH now?
+(a) give
+(b) call{value: amount}("")
+(c) transfer
+(d) send
+Correct Answer: b
+Question 113 MEDIUM
+What is ’ERC-165’?
+(a) Standard for NFT
+(b) Standard for token
+(c) Standard for interface detection
+(d) Standard for name
+Correct Answer: c
+Question 114 HARD
+What is ’ERC-1155’?
+(a) Token
+(b) Wallet
+(c) Coin
+(d) Multi-Token Standard (both Fungible and NFT in one)
+Correct Answer: d
+39
+Question 115 EASY
+What is ’metadata’ in NFT?
+(a) The image itself
+(b) JSON (cid:28)le describing the asset (image, name)
+(c) The code
+(d) The key
+Correct Answer: b
+Question 116 MEDIUM
+Where is NFT metadata usually stored?
+(a) In mind
+(b) In wallet
+(c) On-chain
+(d) IPFS or centralized server (URI)
+Correct Answer: d
+Question 117 HARD
+What is ’burn’ function?
+(a) Heat
+(b) Fire
+(c) Delete
+(d) Sends token to 0x0 address (removing supply)
+Correct Answer: d
+40
+Question 118 EASY
+What is ’mint’ function?
+(a) Candy
+(b) Fresh
+(c) Money
+(d) Creates new tokens
+Correct Answer: d
+Question 119 MEDIUM
+What is ’allowance’ in ERC20?
+(a) Pocket money
+(b) Amount a spender is allowed to transfer on owner’s behalf
+(c) Gift
+(d) Permission
+Correct Answer: b
+Question 120 HARD
+What is ’approve’ in ERC20?
+(a) Likes
+(b) Says yes
+(c) Votes
+(d) Sets the allowance
+Correct Answer: d
+41
+Question 121 EASY
+What is ’Flash Loan Attack’?
+(a) Manipulating price with massive borrowed funds in one tx
+(b) Hacking bank
+(c) Stealing card
+(d) Speeding
+Correct Answer: a
+Question 122 MEDIUM
+What is ’Timelock’?
+(a) Clock
+(b) Watch
+(c) Delaying execution of admin functions for safety
+(d) Calendar
+Correct Answer: c
+Question 123 HARD
+What is ’MultiSig’?
+(a) Auto
+(b) No sig
+(c) Wallet requiring M-of-N signatures to execute
+(d) Single sig
+Correct Answer: c
+42
+Question 124 EASY
+What is ’Gnosis Safe’?
+(a) Bank
+(b) Safe box
+(c) Lock
+(d) Popular MultiSig wallet implementation
+Correct Answer: d
+Question 125 MEDIUM
+What is ’Hardhat’?
+(a) Helmet
+(b) Software
+(c) Ethereum development environment (alternative to Tru(cid:31)e)
+(d) Tool
+Correct Answer: c
+Question 126 HARD
+What is ’console.log’ in Hardhat?
+(a) Error
+(b) JS log
+(c) Screen
+(d) Debugging print in Solidity
+Correct Answer: d
+43
+Question 127 EASY
+What is ’Foundry’?
+(a) Rust-based Ethereum dev tool (fast)
+(b) Metal
+(c) Factory
+(d) Place
+Correct Answer: a
+MODULE 3: DECENTRALIZED APPLICA-
+TIONS (DAPPS)
+Question 128 MEDIUM
+What does ’JSON-RPC’ stand for?
+(a) Java Remote
+(b) Just Remote
+(c) JavaScript Object Notation Remote Procedure Call
+(d) Json Call
+Correct Answer: c
+Question 129 HARD
+Which method gets block number?
+(a) block()
+(b) get_block
+(c) eth_blockNumber
+(d) read_block
+Correct Answer: c
+44
+Question 130 EASY
+Which method gets balance?
+(a) get_money
+(b) read_balance
+(c) balance()
+(d) eth_getBalance
+Correct Answer: d
+Question 131 MEDIUM
+What is ’ChainID’ used for?
+(a) Password
+(b) Login
+(c) Identity
+(d) Preventing Replay Attacks between chains
+Correct Answer: d
+Question 132 HARD
+What is ’NetworkID’?
+(a) User ID
+(b) Pass ID
+(c) P2P network identi(cid:28)er
+(d) Login ID
+Correct Answer: c
+45
+Question 133 EASY
+What is ’Metamask’ seed phrase length?
+(a) 1 word
+(b) 5 chars
+(c) 12 words usually
+(d) 100 words
+Correct Answer: c
+Question 134 MEDIUM
+Can Metamask connect to Localhost?
+(a) Never
+(b) Maybe
+(c) No
+(d) Yes, custom RPC
+Correct Answer: d
+Question 135 HARD
+What is ’Ethers.js’?
+(a) Coin
+(b) Token
+(c) Ether
+(d) Library to interact with Ethereum (lightweight alternative to Web3.js)
+Correct Answer: d
+46
+Question 136 EASY
+What is a ’Signer’ in Ethers.js?
+(a) Pen
+(b) Viewer
+(c) User
+(d) Object that can sign transactions (has private key)
+Correct Answer: d
+Question 137 MEDIUM
+What is a ’Provider’ in Ethers.js?
+(a) Signer
+(b) Writer
+(c) Wallet
+(d) Read-only connection to blockchain
+Correct Answer: d
+Question 138 HARD
+What is ’WalletConnect’?
+(a) Wi(cid:28)
+(b) Bluetooth
+(c) Protocol to connect mobile wallets to DApps via QR
+(d) Connection
+Correct Answer: c
+47
+Question 139 EASY
+What is ’The Graph’?
+(a) Plot
+(b) Indexing protocol for querying networks (GraphQL)
+(c) Map
+(d) Chart
+Correct Answer: b
+Question 140 MEDIUM
+What is a ’Subgraph’?
+(a) Subway
+(b) Plot
+(c) Small graph
+(d) Index de(cid:28)nition for The Graph
+Correct Answer: d
+Question 141 HARD
+What is ’GraphQL’?
+(a) Query language for APIs
+(b) Graphing tool
+(c) Math
+(d) Drawing
+Correct Answer: a
+48
+Question 142 EASY
+What is ’Next.js’?
+(a) Old JS
+(b) JS library
+(c) React framework for SSR/SSG (popular for DApps)
+(d) Database
+Correct Answer: c
+Question 143 MEDIUM
+What is ’Vercel’?
+(a) Hosting platform often used for DApps frontend
+(b) Token
+(c) Database
+(d) Coin
+Correct Answer: a
+Question 144 HARD
+What is ’Pinata’?
+(a) IPFS pinning service
+(b) Fruit
+(c) Candy
+(d) Game
+Correct Answer: a
+49
+Question 145 EASY
+What implies ’Pinning’ in IPFS?
+(a) Sewing
+(b) Telling a node to keep (cid:28)le and not garbage collect it
+(c) Needle
+(d) Sticking
+Correct Answer: b
+Question 146 MEDIUM
+What is ’Filecoin’?
+(a) Folder
+(b) Server
+(c) Incentivized storage network based on IPFS
+(d) File
+Correct Answer: c
+Question 147 HARD
+What is ’Arweave’?
+(a) Cloth
+(b) Spider
+(c) Weave
+(d) Permanent web storage protocol
+Correct Answer: d
+50
+Question 148 EASY
+What is ’Swarm’?
+(a) Insects
+(b) Group
+(c) Ethereum’s distributed storage
+(d) Bees
+Correct Answer: c
+Question 149 MEDIUM
+What is ’Moralis’?
+(a) Moral
+(b) Ethics
+(c) Person
+(d) Web3 development platform (backend as a service)
+Correct Answer: d
+Question 150 HARD
+What is ’Alchemy’?
+(a) Potion
+(b) Web3 developer platform / Node provider
+(c) Magic
+(d) Science
+Correct Answer: b
+51
+Question 151 EASY
+What is ’Tru(cid:31)e Dashboard’?
+(a) GUI for deploying without copying keys to con(cid:28)g
+(b) Board
+(c) Car dashboard
+(d) Panel
+Correct Answer: a
+Question 152 MEDIUM
+What is ’Artifacts’ in Tru(cid:31)e?
+(a) History
+(b) Items
+(c) JSON (cid:28)les with ABI and address
+(d) Relics
+Correct Answer: c
+Question 153 HARD
+What is ’Contract Abstraction’?
+(a) Drawing
+(b) Idea
+(c) JS wrapper object to interact with contract easily
+(d) Abstract art
+Correct Answer: c
+52
+Question 154 EASY
+What is ’Mocha’?
+(a) Chocolate
+(b) JS Test Framework
+(c) Co(cid:27)ee
+(d) Tea
+Correct Answer: b
+Question 155 MEDIUM
+What is ’Chai’?
+(a) Tea
+(b) Latte
+(c) Co(cid:27)ee
+(d) Assertion Library
+Correct Answer: d
+Question 156 HARD
+What is ’beforeEach’?
+(a) Once
+(b) After test
+(c) Never
+(d) Runs before every test
+Correct Answer: d
+53
+Question 157 EASY
+What is ’describe’ block?
+(a) Groups tests together
+(b) Writing
+(c) Reading
+(d) Description
+Correct Answer: a
+Question 158 MEDIUM
+What is ’it’ block?
+(a) De(cid:28)nes a single test case
+(b) Code
+(c) It thing
+(d) Object
+Correct Answer: a
+Question 159 HARD
+How to debug Solidity in Remix?
+(a) Console.log only
+(b) Debugger tab (step over, step into)
+(c) Praying
+(d) Guessing
+Correct Answer: b
+54
+Question 160 EASY
+What is ’Event Log’?
+(a) Data stored in transaction receipt
+(b) Wood
+(c) Fire
+(d) Tree log
+Correct Answer: a
+Question 161 MEDIUM
+Are Logs accessible to smart contracts?
+(a) No, only checks (Contracts cannot read logs)
+(b) Maybe
+(c) Always
+(d) Yes
+Correct Answer: a
+Question 162 HARD
+Who pays gas for ’view’ functions called externally?
+(a) Dev
+(b) Nobody (Free)
+(c) User
+(d) Miner
+Correct Answer: b
+55
+Question 163 EASY
+Who pays gas for ’view’ functions called internally (by execution)?
+(a) Dev
+(b) The caller (part of execution cost)
+(c) Nobody
+(d) Miner
+Correct Answer: b
+Question 164 MEDIUM
+What is ’Estimating Gas’?
+(a) Random
+(b) Math
+(c) Simulating tx to predict gas usage
+(d) Guessing
+Correct Answer: c
+Question 165 HARD
+What is ’eth_estimateGas’?
+(a) Fuel
+(b) RPC method to estimate gas
+(c) Pump
+(d) Gas station
+Correct Answer: b
+56
+Question 166 EASY
+What causes ’Out of Gas’?
+(a) Transaction loop or cost exceeds limit
+(b) No money
+(c) Broken car
+(d) Empty tank
+Correct Answer: a
+Question 167 MEDIUM
+What implies ’Front Running’?
+(a) Bots seeing pending tx and submitting own with higher gas to execute (cid:28)rst
+(b) Jogging
+(c) Race
+(d) Running fast
+Correct Answer: a
+Question 168 HARD
+What is ’MEV’?
+(a) Most Value
+(b) Maximal Extractable Value (pro(cid:28)t miners/validators take)
+(c) More Value
+(d) My Value
+Correct Answer: b
+57
+Question 169 EASY
+What is ’Sandwich Attack’?
+(a) Eating
+(b) Lunch
+(c) Food
+(d) Front-running and Back-running a user trade on DEX
+Correct Answer: d
+Question 170 MEDIUM
+What is ’Slippage’?
+(a) Di(cid:27)erence between expected price and execution price
+(b) Wet
+(c) Ice
+(d) Falling
+Correct Answer: a
+Question 171 HARD
+What is ’ENS’ su(cid:30)x?
+(a) .com
+(b) .net
+(c) .org
+(d) .eth
+Correct Answer: d
+58
+Question 172 EASY
+What involves ’Resolve ENS’?
+(a) Turning name to address
+(b) Deleting name
+(c) Buying name
+(d) Turning address to name
+Correct Answer: a
+Question 173 MEDIUM
+What is ’Reverse Resolve’?
+(a) Name to address
+(b) Walking
+(c) Backwards
+(d) Turning address to name
+Correct Answer: d
+Question 174 HARD
+can DApp run on Mobile?
+(a) Only Android
+(b) No
+(c) Yes, via WalletConnect or DApp browser
+(d) Never
+Correct Answer: c
+59
+Question 175 EASY
+What is ’Deep Linking’?
+(a) Sea
+(b) Pool
+(c) Link that opens DApp inside Wallet app
+(d) Ocean
+Correct Answer: c
+Question 176 MEDIUM
+What is ’Meta-Transaction’?
+(a) Fake tx
+(b) User signs message, Relayer pays gas
+(c) Big tx
+(d) Small tx
+Correct Answer: b
+Question 177 HARD
+Why use Meta-Transaction?
+(a) More gas
+(b) Slower
+(c) Gasless experience for user
+(d) Harder
+Correct Answer: c
+60
+Question 178 EASY
+What is ’EIP-712’?
+(a) Code
+(b) Law
+(c) Number
+(d) Standard for typed data signing
+Correct Answer: d
+Question 179 MEDIUM
+What is ’Web3Modal’?
+(a) Window
+(b) Modal
+(c) Popup
+(d) Library to support multiple wallet providers
+Correct Answer: d
+Question 180 HARD
+What is ’RainbowKit’?
+(a) UI library for wallet connection
+(b) Rainbow
+(c) Kit
+(d) Color
+Correct Answer: a
+61
+Question 181 EASY
+What is ’WAGMI’ library?
+(a) Code
+(b) Acronym
+(c) React Hooks for Ethereum (We’re All Gonna Make It)
+(d) Slang
+Correct Answer: c
+Question 182 MEDIUM
+What is ’Viem’?
+(a) Soap
+(b) Low-level TS Interface for Ethereum
+(c) Tool
+(d) Cleaner
+Correct Answer: b
+Question 183 HARD
+What is ’IndexedDB’?
+(a) Index
+(b) Browser database to cache blockchain data
+(c) List
+(d) File
+Correct Answer: b
+62
+Question 184 EASY
+What is ’LocalStroage’?
+(a) Disk
+(b) Server
+(c) Browser key-value storage
+(d) Cloud
+Correct Answer: c
+Question 185 MEDIUM
+Should you store Private Key in LocalStorage?
+(a) If encrypted
+(b) Maybe
+(c) NEVER
+(d) Yes
+Correct Answer: c
+Question 186 HARD
+How to handle ’Chain Changed’ event?
+(a) Crash
+(b) Ignore
+(c) Close
+(d) Reload page or update provider
+Correct Answer: d
+63
+Question 187 EASY
+How to handle ’Accounts Changed’ event?
+(a) Update UI with new address
+(b) Crash
+(c) Close
+(d) Ignore
+Correct Answer: a
+Question 188 MEDIUM
+What is ’Hashed TimeLock Contract’ (HTLC)?
+(a) Time
+(b) Lock
+(c) Clock
+(d) Atomic swap protocol
+Correct Answer: d
+Question 189 HARD
+What is ’Faucet’ drip?
+(a) Amount of free coins given
+(b) Leak
+(c) Drop
+(d) Water
+Correct Answer: a
+64
+Question 190 EASY
+What is ’Rinkeby Authenticated Faucet’?
+(a) Free
+(b) Closed
+(c) Requires social media post to prevent spam
+(d) Open
+Correct Answer: c
+MODULE 4: PLATFORMS ECOSYSTEM
+Question 191 MEDIUM
+What is ’Hyperledger Besu’?
+(a) Sawtooth
+(b) Fabric
+(c) Indy
+(d) Enterprise Ethereum client (Java)
+Correct Answer: d
+Question 192 HARD
+What is ’Hyperledger Indy’?
+(a) Car
+(b) Identity-focused ledger
+(c) India
+(d) Race
+Correct Answer: b
+65
+Question 193 EASY
+What is ’Hyperledger Sawtooth’?
+(a) Teeth
+(b) Modular blockchain suite by Intel
+(c) Fish
+(d) Tool
+Correct Answer: b
+Question 194 MEDIUM
+What is ’Quorum’?
+(a) Permissioned Ethereum by JP Morgan (now ConsenSys)
+(b) Meeting
+(c) Group
+(d) Vote
+Correct Answer: a
+Question 195 HARD
+What implies ’Constellation’ in Quorum?
+(a) Stars
+(b) Private transaction manager
+(c) Space
+(d) Sky
+Correct Answer: b
+66
+Question 196 EASY
+What is ’Tessera’?
+(a) Private transaction manager for Quorum (Java)
+(b) Game
+(c) Shape
+(d) Cube
+Correct Answer: a
+Question 197 MEDIUM
+What is ’Corda’ State objects?
+(a) Facts shared between nodes
+(b) Files
+(c) DB
+(d) Java objects
+Correct Answer: a
+Question 198 HARD
+What is ’Notary’ in Corda?
+(a) Service preventing double-spends
+(b) Judge
+(c) Lawyer
+(d) Clerk
+Correct Answer: a
+67
+Question 199 EASY
+What is ’Flow’ in Corda?
+(a) Water
+(b) Air
+(c) River
+(d) Business logic execution path
+Correct Answer: d
+Question 200 MEDIUM
+What is ’Cosmos SDK’?
+(a) Framework for building blockchains
+(b) Space
+(c) Universe
+(d) Star
+Correct Answer: a
+Question 201 HARD
+What is ’IBC’?
+(a) Brand
+(b) Code
+(c) Inter-Blockchain Communication protocol
+(d) Beer
+Correct Answer: c
+68
+Question 202 EASY
+What is ’Tendermint’?
+(a) Consensus engine (BFT)
+(b) Candy
+(c) Mint
+(d) Gum
+Correct Answer: a
+Question 203 MEDIUM
+What is ’Polkadot’ Relay Chain?
+(a) Race
+(b) Central chain ensuring security/interop
+(c) Game
+(d) Sport
+Correct Answer: b
+Question 204 HARD
+What is ’Parachain’?
+(a) Parachute
+(b) Plane
+(c) Sovereign chain connected to Polkadot
+(d) Sky
+Correct Answer: c
+69
+Question 205 EASY
+What is ’Substrate’?
+(a) Soil
+(b) Ground
+(c) Base
+(d) Framework to build Polkadot chains
+Correct Answer: d
+Question 206 MEDIUM
+What is ’Avalanche’ consensus?
+(a) Slide
+(b) Novel measuring sampling mechanism
+(c) Mountain
+(d) Snow
+Correct Answer: b
+Question 207 HARD
+What is ’Solana’ POH?
+(a) Time
+(b) Proof of History (Veri(cid:28)able Delay Function)
+(c) History
+(d) Book
+Correct Answer: b
+70
+Question 208 EASY
+What is ’Near Protocol’?
+(a) Far
+(b) Close
+(c) Distance
+(d) Sharded PoS blockchain
+Correct Answer: d
+Question 209 MEDIUM
+What is ’Aurora’?
+(a) Light
+(b) Star
+(c) EVM on Near
+(d) Sky
+Correct Answer: c
+Question 210 HARD
+What is ’Polygon’ (Matic)?
+(a) Math
+(b) Geometry
+(c) Shape
+(d) L2/Sidechain scaling for Ethereum
+Correct Answer: d
+71
+Question 211 EASY
+What is ’Arbitrum’?
+(a) Law
+(b) Optimistic Rollup L2
+(c) Court
+(d) Judge
+Correct Answer: b
+Question 212 MEDIUM
+What is ’Optimism’?
+(a) Mood
+(b) Optimistic Rollup L2
+(c) Hope
+(d) Happy
+Correct Answer: b
+Question 213 HARD
+What is ’zkSync’?
+(a) ZK-Rollup L2
+(b) Load
+(c) Sync
+(d) Link
+Correct Answer: a
+72
+Question 214 EASY
+What is ’StarkNet’?
+(a) Wolf
+(b) Iron Man
+(c) Game
+(d) ZK-Rollup using STARKs
+Correct Answer: d
+Question 215 MEDIUM
+What is ’Validium’?
+(a) Real
+(b) Data availability o(cid:27)-chain, Proof on-chain
+(c) True
+(d) Valid
+Correct Answer: b
+Question 216 HARD
+What is ’Volition’?
+(a) Mind
+(b) User chooses data availability mode
+(c) Will
+(d) Power
+Correct Answer: b
+73
+Question 217 EASY
+What is ’Gossip Protocol’?
+(a) Rumor
+(b) Chat
+(c) Nodes sharing info randomly to peers
+(d) Talking
+Correct Answer: c
+Question 218 MEDIUM
+What connects ’Metaverse’ and Blockchain?
+(a) Games
+(b) Facebook
+(c) VR
+(d) Digital ownership of assets (NFTs)
+Correct Answer: d
+Question 219 HARD
+What is ’GameFi’?
+(a) Game
+(b) Play-to-Earn gaming
+(c) Fun
+(d) Finance
+Correct Answer: b
+74
+Question 220 EASY
+What is ’Axie In(cid:28)nity’?
+(a) Famous P2E game
+(b) Game
+(c) Toy
+(d) Movie
+Correct Answer: a
+Question 221 MEDIUM
+What is ’Scholarship’ in GameFi?
+(a) Free
+(b) Lending NFT to player for share of pro(cid:28)t
+(c) School
+(d) Uni
+Correct Answer: b
+Question 222 HARD
+What is ’Carbon Credit’ on blockchain?
+(a) Gas
+(b) Tokenized o(cid:27)set credit
+(c) Smoke
+(d) Coal
+Correct Answer: b
+75
+Question 223 EASY
+What is ’ReFi’?
+(a) Remake
+(b) Regenerative Finance
+(c) Redo
+(d) Replay
+Correct Answer: b
+Question 224 MEDIUM
+What is ’Soulbound Token’ (SBT)?
+(a) Non-transferable NFT (Identity/Reputation)
+(b) Spirit
+(c) Soul
+(d) Ghost
+Correct Answer: a
+Question 225 HARD
+What is ’DID’?
+(a) Decentralized Identi(cid:28)er (W3C standard)
+(b) Did
+(c) Do
+(d) Done
+Correct Answer: a
+76
+Question 226 EASY
+What is ’Veri(cid:28)able Credential’?
+(a) Digital attestations (e.g. Uni Degree)
+(b) Password
+(c) Key
+(d) Login
+Correct Answer: a
+Question 227 MEDIUM
+What is ’Sybil Resistance’?
+(a) Preventing fake identities
+(b) Fight
+(c) Defense
+(d) War
+Correct Answer: a
+Question 228 HARD
+What is ’Quadratic Voting’?
+(a) Math
+(b) Class
+(c) Cost of vote = (number of votes)2
+(c) School
+Correct Answer: c
+77
+Question 229 EASY
+What is ’Gitcoin Grants’?
+(a) Git
+(b) Code
+(c) Hub
+(d) Public goods funding via QF
+Correct Answer: d
+Question 230 MEDIUM
+What is ’Retroactive Public Goods Funding’?
+(a) Past
+(b) Funding after value is proven
+(c) History
+(d) Back
+Correct Answer: b
+Question 231 HARD
+What is ’Tornado Cash’?
+(a) Weather
+(b) Wind
+(c) Privacy mixer (sanctioned)
+(d) Storm
+Correct Answer: c
+78
+Question 232 EASY
+What is ’Monero’?
+(a) Coin
+(b) Cash
+(c) Money
+(d) Privacy coin (Ring Signatures)
+Correct Answer: d
+Question 233 MEDIUM
+What is ’Zcash’?
+(a) Coin
+(b) Privacy coin (zk-SNARKs)
+(c) Money
+(d) Cash
+Correct Answer: b
+Question 234 HARD
+What is ’CoinJoin’?
+(a) Team
+(b) Join
+(c) Mixing technique in Bitcoin
+(d) Group
+Correct Answer: c
+79
+Question 235 EASY
+What is ’Dusting Attack’?
+(a) Dirt
+(b) Cleaning
+(c) Sending tiny amounts to track addresses
+(d) Sand
+Correct Answer: c
+Question 236 MEDIUM
+What is ’Eclipse Attack’?
+(a) Isolating a node from honest peers
+(b) Dark
+(c) Sun
+(d) Moon
+Correct Answer: a
+Question 237 HARD
+What is ’Vampire Attack’?
+(a) Stealing liquidity from another protocol (Sushi vs Uni)
+(b) Blood
+(c) Night
+(d) Bat
+Correct Answer: a
+80
+Question 238 EASY
+What is ’Rug Pull’?
+(a) Mat
+(b) Devs removing all liquidity and running away
+(c) Floor
+(d) Carpet
+Correct Answer: b
+Question 239 MEDIUM
+What is ’Honeypot’?
+(a) Contract that looks vulnerable but traps attacker
+(b) Bee
+(c) Bear
+(d) Sweet
+Correct Answer: a
+Question 240 HARD
+What is ’Ponzi Scheme’?
+(a) Chart
+(b) Paying early investors with new money
+(c) Business
+(d) Game
+Correct Answer: b
+81
+Question 241 EASY
+What is ’Howey Test’?
+(a) US test to determine if asset is security
+(b) Class
+(c) School
+(d) Exam
+Correct Answer: a
+Question 242 MEDIUM
+What is ’Mica’?
+(a) Name
+(b) Rock
+(c) Stone
+(d) EU Markets in Crypto-Assets regulation
+Correct Answer: d
+Question 243 HARD
+What is ’KYC’?
+(a) Food
+(b) Chicken
+(c) Name
+(d) Know Your Customer
+Correct Answer: d
+82
+Question 244 EASY
+What is ’AML’?
+(a) Anti-Money Laundering
+(b) Park
+(c) Zoo
+(d) Animal
+Correct Answer: a
+Question 245 MEDIUM
+What is ’GDPR’ challenge?
+(a) Right to be forgotten hits immutability
+(b) Rule
+(c) Court
+(d) Law
+Correct Answer: a
+Question 246 HARD
+What is ’Smart Contract Audit’?
+(a) IRS
+(b) Security review by experts
+(c) Money
+(d) Tax
+Correct Answer: b
+83
+Question 247 EASY
+What is ’Bug Bounty’?
+(a) Reward for (cid:28)nding vulnerabilities
+(b) Pest
+(c) Insect
+(d) Kill
+Correct Answer: a
+Question 248 MEDIUM
+What is ’Formal Veri(cid:28)cation’?
+(a) Test
+(b) Math proof of correctness
+(c) Paper
+(d) Form
+Correct Answer: b
+Question 249 HARD
+What is ’Slither’?
+(a) Move
+(b) Snake
+(c) Game
+(d) Static analysis tool for Solidity
+Correct Answer: d
+84
+Question 250 EASY
+What is ’MythX’?
+(a) Myth
+(b) Security analysis coding tool
+(c) Legend
+(d) Story
+Correct Answer: b
+Question 251 MEDIUM
+What is ’ERC-4337’?
+(a) Coin
+(b) NFT
+(c) Account Abstraction standard (Smart Accounts)
+(d) Token
+Correct Answer: c
+Question 252 HARD
+What is ’Bundler’ in ERC-4337?
+(a) Wrapper
+(b) Node that bundles UserOps and sends to chain
+(c) Box
+(d) Package
+Correct Answer: b
+85
+Question 253 EASY
+What is ’Paymaster’ in ERC-4337?
+(a) Payer
+(b) Bank
+(c) Smart contract that pays for transaction fees for user
+(d) Boss
+Correct Answer: c
+Question 254 MEDIUM
+What is ’UserOperation’?
+(a) Msg
+(b) Call
+(c) Tx
+(d) Pseudo-transaction object in Account Abstraction
+Correct Answer: d
+Question 255 HARD
+What is ’Social Recovery’?
+(a) Party
+(b) Meeting
+(c) Chat
+(d) Recovering wallet via trusted friends/guardians
+Correct Answer: d
+86
