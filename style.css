@@ -312,3 +312,23 @@ h2{margin:0 0 12px 0; font-size:18px}
 [data-theme="dark"] .tab.active{
   color:#cfe6ff;
 }
+
+/* FIX: длинные ответы (0x0000...) не должны раздвигать страницу */
+.answer{
+  overflow: hidden;
+}
+
+.answer > div{
+  min-width: 0;              /* важно для flex */
+  overflow-wrap: anywhere;   /* переносить где угодно */
+  word-break: break-word;    /* доп. перенос */
+}
+
+.qcard{
+  overflow: hidden;          /* чтобы карточка не расширялась */
+}
+
+/* чуть лучше читается для адресов/хэшей */
+.answer > div{
+  font-family: ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto, Arial;
+}
