@@ -115,11 +115,11 @@ async function saveNewChapter() {
 
 async function uploadFileToGitHub(token, path, content, commitMessage) {
   const url = `https://api.github.com/repos/${REPO_OWNER}/${REPO_NAME}/contents/${path}`;
-  
-  // Получаем sha если файл уже существует
+  const authHeader = token.startsWith('github_pat_') ? `Bearer ${token}` : `token ${token}`;
+
   let sha = null;
   try {
-    const getRes = await fetch(url, { headers: { Authorization: `token ${token}` } });
+    const getRes = await fetch(url, { headers: { Authorization: authHeader } });
     if (getRes.ok) {
       const data = await getRes.json();
       sha = data.sha;
@@ -135,7 +135,7 @@ async function uploadFileToGitHub(token, path, content, commitMessage) {
   const res = await fetch(url, {
     method: 'PUT',
     headers: {
-      Authorization: `token ${token}`,
+      Authorization: authHeader,
       'Content-Type': 'application/json'
     },
     body: JSON.stringify(body)
