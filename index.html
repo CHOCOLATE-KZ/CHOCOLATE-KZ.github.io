@@ -1,12 +1,62 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ru">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Повелитель Тайн</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Читалка новелл</title>
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    test
-    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSNy9U5y6mhVKgDtw6bdHrJmk1FkXr0LTp1SXhWBoHRn9QPAzvu2kMWQBA&s=10" alt="">
+  <header class="app-header">
+    <div class="header-container">
+      <h1 id="book-title">Повелитель Тайн</h1>
+      <button id="admin-btn" class="btn btn-secondary">🔑 Войти как админ</button>
+    </div>
+  </header>
+
+  <main class="container">
+    <!-- Навигация по главам / Админка -->
+    <section class="controls-section">
+      <div class="select-group">
+        <label for="chapter-select">Выберите главу:</label>
+        <select id="chapter-select"></select>
+      </div>
+
+      <div class="nav-buttons">
+        <button id="prev-btn" class="btn">← Пред. глава</button>
+        <button id="next-btn" class="btn">След. глава →</button>
+      </div>
+    </section>
+
+    <!-- Панель администратора (скрыта по умолчанию) -->
+    <section id="admin-panel" class="admin-panel hidden">
+      <h2>Панель управления главами</h2>
+      <div class="form-group">
+        <label for="gh-token">Personal Access Token (GitHub):</label>
+        <input type="password" id="gh-token" placeholder="ghp_xxxxxxxxxxxx">
+      </div>
+      <div class="form-group">
+        <label for="chap-title">Название главы:</label>
+        <input type="text" id="chap-title" placeholder="Глава 2: Имя">
+      </div>
+      <div class="form-group">
+        <label for="chap-volume">Том / Секция:</label>
+        <input type="text" id="chap-volume" placeholder="Том 1: Повешенный">
+      </div>
+      <div class="form-group">
+        <label for="chap-content">Текст главы (абзацы с новой строки):</label>
+        <textarea id="chap-content" rows="10" placeholder="Вставьте текст главы..."></textarea>
+      </div>
+      <button id="save-chapter-btn" class="btn btn-primary">Сохранить и опубликовать</button>
+    </section>
+
+    <!-- Содержимое главы -->
+    <article id="reader-card" class="reader-card">
+      <h2 id="chapter-title">Загрузка...</h2>
+      <div id="chapter-body" class="chapter-body"></div>
+    </article>
+  </main>
+
+  <script src="app.js"></script>
 </body>
 </html>
